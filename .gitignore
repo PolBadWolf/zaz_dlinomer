@@ -5,6 +5,12 @@
 *.obj
 *.d
 *.mk
+*.elf
+*.eep
+*.hex
+*.lss
+*.map
+*.sreg
 
 # Precompiled Headers
 *.gch
