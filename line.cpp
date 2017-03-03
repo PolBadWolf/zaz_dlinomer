@@ -112,7 +112,7 @@ namespace ns_line
 			}
 			for (uint8_t i=0; i<5; i++)
 			{
-				if (sensors[i]->tr == 0) наезд на датчик
+				if (sensors[i]->tr == 0) // наезд на датчик
 				{
 					if (count > 0)	// отладочный вывод в rs сработки датчика на наезд
 					{
