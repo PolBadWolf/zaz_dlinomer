@@ -1702,7 +1702,7 @@ END GROUP
 .stab.indexstr
  *(.stab.indexstr)
 
-.comment        0x00000000       0x60
+.comment        0x00000000       0x30
  *(.comment)
  .comment       0x00000000       0x30 Archive.o
                                  0x31 (size before relaxing)
@@ -1720,11 +1720,10 @@ END GROUP
  .comment       0x00000030       0x31 system/timer2.o
  .comment       0x00000030       0x31 vg.o
  .comment       0x00000030       0x31 watchdog.o
- .comment       0x00000030       0x30 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(malloc.o)
-                                 0x31 (size before relaxing)
- .comment       0x00000060       0x31 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fdevopen.o)
- .comment       0x00000060       0x31 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(iob.o)
- .comment       0x00000060       0x31 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(calloc.o)
+ .comment       0x00000030       0x31 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(malloc.o)
+ .comment       0x00000030       0x31 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fdevopen.o)
+ .comment       0x00000030       0x31 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(iob.o)
+ .comment       0x00000030       0x31 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(calloc.o)
 
 .note.gnu.avr.deviceinfo
                 0x00000000       0x3c
@@ -1896,39 +1895,39 @@ END GROUP
  .debug_frame   0x000013a4       0x7c system/timer2.o
  .debug_frame   0x00001420       0x44 watchdog.o
 
-.debug_str      0x00000000     0x2efc
+.debug_str      0x00000000     0x2efb
  *(.debug_str)
  .debug_str     0x00000000      0x27d C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51/crtatmega128.o
- .debug_str     0x0000027d      0x3ca Archive.o
+ .debug_str     0x0000027d      0x3c9 Archive.o
+                                0x438 (size before relaxing)
+ .debug_str     0x00000646      0x3fb line.o
+                                0x6ac (size before relaxing)
+ .debug_str     0x00000a41      0x183 main.o
+                                0x463 (size before relaxing)
+ .debug_str     0x00000bc4     0x16e3 menu.o
+                               0x1cff (size before relaxing)
+ .debug_str     0x000022a7       0xbd Module.o
+                                0x319 (size before relaxing)
+ .debug_str     0x00002364      0x2db system/Clock.o
+                                0x623 (size before relaxing)
+ .debug_str     0x0000263f      0x1ac system/Device.o
+                                0x4f9 (size before relaxing)
+ .debug_str     0x000027eb       0xcb system/key4.o
                                 0x439 (size before relaxing)
- .debug_str     0x00000647      0x3fb line.o
-                                0x6ad (size before relaxing)
- .debug_str     0x00000a42      0x183 main.o
-                                0x464 (size before relaxing)
- .debug_str     0x00000bc5     0x16e3 menu.o
-                               0x1d00 (size before relaxing)
- .debug_str     0x000022a8       0xbd Module.o
-                                0x31a (size before relaxing)
- .debug_str     0x00002365      0x2db system/Clock.o
-                                0x624 (size before relaxing)
- .debug_str     0x00002640      0x1ac system/Device.o
-                                0x4fa (size before relaxing)
- .debug_str     0x000027ec       0xcb system/key4.o
-                                0x43a (size before relaxing)
- .debug_str     0x000028b7      0x31d system/Lcd.o
-                                0x737 (size before relaxing)
- .debug_str     0x00002bd4       0x2d system/LcdKey_Timer.o
-                                0x3f7 (size before relaxing)
- .debug_str     0x00002c01       0x5b system/path.o
-                                0x209 (size before relaxing)
- .debug_str     0x00002c5c      0x217 system/rs232.o
-                                0x645 (size before relaxing)
- .debug_str     0x00002e73       0x20 system/timer2.o
-                                0x267 (size before relaxing)
- .debug_str     0x00002e93        0xc vg.o
-                                0x2fb (size before relaxing)
- .debug_str     0x00002e9f       0x5d watchdog.o
-                                0x227 (size before relaxing)
+ .debug_str     0x000028b6      0x31d system/Lcd.o
+                                0x736 (size before relaxing)
+ .debug_str     0x00002bd3       0x2d system/LcdKey_Timer.o
+                                0x3f6 (size before relaxing)
+ .debug_str     0x00002c00       0x5b system/path.o
+                                0x208 (size before relaxing)
+ .debug_str     0x00002c5b      0x217 system/rs232.o
+                                0x644 (size before relaxing)
+ .debug_str     0x00002e72       0x20 system/timer2.o
+                                0x266 (size before relaxing)
+ .debug_str     0x00002e92        0xc vg.o
+                                0x2fa (size before relaxing)
+ .debug_str     0x00002e9e       0x5d watchdog.o
+                                0x226 (size before relaxing)
 
 .debug_loc      0x00000000     0x5969
  *(.debug_loc)
