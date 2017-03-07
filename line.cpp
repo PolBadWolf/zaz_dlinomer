@@ -49,6 +49,7 @@ namespace ns_line
 			eeprom_read_block(&corCurTube_cell, &ns_archive::archive[corCurTube_idx], sizeof(archiveStruct));
 			ns_vg::nTube = corCurTube_cell.nTube;
 		}
+		eeprom_update_word(&ns_vg::eeDistance[0], 0);
 	}
 	void Interrupt()
 	{
@@ -338,26 +339,29 @@ namespace ns_line
 					}
 			else	ex[5] = 99999;
 
-			if ( (times[1][1] >= times[n][0]) && (times[n][0] != 0) && (n < 5) )
-					{
-						extendT = times[1][1] - times[n][0];		// 2013 = +512	base[n-1]		+ ex	:	1-n
-						ex[2] = extendT;
-					}
-			else	ex[2] = 99999;
+			if (eeprom_read_byte(&ns_vg::eeFlSq2))
+			{
+				if ( (times[1][1] >= times[n][0]) && (times[n][0] != 0) && (n < 5) )
+						{
+							extendT = times[1][1] - times[n][0];		// 2013 = +512	base[n-1]		+ ex	:	1-n
+							ex[2] = extendT;
+						}
+				else	ex[2] = 99999;
 
-			if ( (times[1][1] >= times[n+1][0]) && (times[n+1][0] != 0) && ((n + 1) < 5) )
-					{
-						extendT = times[1][1] - times[n+1][0];		// 2013 = +xx	base[(n+1)-1]		+ ex	:	1-(n+1)
-						ex[6] = extendT;
-					}
-			else	ex[6] = 99999;
+				if ( (times[1][1] >= times[n+1][0]) && (times[n+1][0] != 0) && ((n + 1) < 5) )
+						{
+							extendT = times[1][1] - times[n+1][0];		// 2013 = +xx	base[(n+1)-1]		+ ex	:	1-(n+1)
+							ex[6] = extendT;
+						}
+				else	ex[6] = 99999;
 
-			if ( (times[n+1][0] > times[1][1]) && (times[n+1][0] != 0) && ((n + 1) < 5) )
-					{
-						extendT = times[n+1][0] - times[1][1];	// 2013 = -488	base[(n+1)-1]	- ex	:	(n+1)-1
-						ex[3] = extendT;
-					}
-			else	ex[3] = 99999;
+				if ( (times[n+1][0] > times[1][1]) && (times[n+1][0] != 0) && ((n + 1) < 5) )
+						{
+							extendT = times[n+1][0] - times[1][1];	// 2013 = -488	base[(n+1)-1]	- ex	:	(n+1)-1
+							ex[3] = extendT;
+						}
+				else	ex[3] = 99999;
+			}
 
 			if ( (times[n+1][0] > times[0][1]) && (times[n+1][0] != 0) && ((n + 1) < 5) )
 					{

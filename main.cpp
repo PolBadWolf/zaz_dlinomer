@@ -8,9 +8,25 @@
 #include "system/path.h"
 #include <avr/interrupt.h>
 
+	//uint16_t bb[2] = {795, 10433};
 
 int main(void)
 {
+	/*uint16_t* bbX;
+	bbX = &bb[0];
+	(*bbX)++;
+	(*bbX)++;
+	(*bbX)++;
+	(*bbX)++;
+	bbX = &bb[1];
+	(*bbX)++;
+	(*bbX)++;
+	(*bbX)++;
+	(*bbX)++;
+	(*bbX)++;
+	(*bbX)++;
+	(*bbX)++;
+	(*bbX)++;*/
 	/*uint16_t dlinaDe;
 	int8_t sqBasDe;
 	ns_line::times[0][0] = 1;

@@ -98,6 +98,8 @@ namespace ns_menu
 		#define PROTECTINTERVAL     11
 		#define TMINTEGRAL			12
 		#define CORSPEED			13
+		#define CALIBSCR			14
+		#define SQ2ONOFF			15
 		//
 		//			переменные
 		// позитции постоянных сообщений
@@ -377,7 +379,8 @@ namespace ns_menu
 		// ==============================
 		const char menuSelectTab_str1[]  PROGMEM  = ">Просм. архив   ";
 		const char menuSelectTab_str2[]  PROGMEM  = ">корр. длины    ";
-		const char menuSelectTab_str3[]  PROGMEM  = ">корр. скорости ";
+		//const char menuSelectTab_str3[]  PROGMEM  = ">корр. скорости ";
+		const char menuSelectTab_str3[]  PROGMEM  = ">вкл/откл. SQ2  ";
 		const char menuSelectTab_str4[]  PROGMEM  = ">Сброс архива   ";
 		const char menuSelectTab_str5[]  PROGMEM  = ">Дист. SQ1<->SQ2";
 		const char menuSelectTab_str6[]  PROGMEM  = ">Дист. SQ1<->SQ3";
@@ -449,13 +452,21 @@ namespace ns_menu
 			}
 			CRITICAL_SECTION { timeOut = TIMEOUT_MENU; }
 		}
+		void Menu_SelectMM(uint8_t k)
+		{
+			key4->autoRepeat = false;
+			if (k != 6) return;
+			CRITICAL_SECTION { timeOut = 0; }
+			SetMode(CALIBSCR);
+		}
 		void Menu_SelectVV(unsigned char k)
 		{
 			CRITICAL_SECTION { timeOut = 0; }
 			key4->autoRepeat = false;
 			if (curPosPass ==  0) { SetMode(VIEW_ARC); return; }
 			if (curPosPass ==  1) { SetMode(COR_CUR_TUBE); return; }
-			if (curPosPass ==  2) { SetMode(CORSPEED); return; }
+			//if (curPosPass ==  2) { SetMode(CORSPEED); return; }
+			if (curPosPass ==  2) { SetMode(SQ2ONOFF); return; }
 			if (curPosPass ==  3) { SetMode(ZERO_ARC); return; }
 			if (curPosPass ==  4) { curSensIdx = 1; curSensor = 2; SetMode(EDIT_SENSOR); return; }
 			if (curPosPass ==  5) { curSensIdx = 2; curSensor = 3; SetMode(EDIT_SENSOR); return; }
@@ -1169,7 +1180,188 @@ namespace ns_menu
 			CorSpeedView();
 		}
 		// ==============================
+		uint8_t calSq[2];
+		uint8_t calSqX;
+		uint16_t calBas[2];
+		void CalibScrViewQ()
+		{
+			// sq2
+			scr::DigitZ(scr::SetPosition(11, 0), 5, calBas[0]);
+			// sqX
+			scr::DigitZ(scr::SetPosition( 1, 1), 5, calBas[1]);
+			if (calSqX == 0)
+			{
+				scr::PutChar(scr::SetPosition(10, 0), '*');
+				scr::PutChar(scr::SetPosition( 0, 1), ' ');
+			}
+			else
+			{
+				scr::PutChar(scr::SetPosition(10, 0), ' ');
+				scr::PutChar(scr::SetPosition( 0, 1), '*');
+			}
+		}
+		void CalibScr(uint8_t k)
+		{
+			CRITICAL_SECTION { timeOut = 0; }
+			key4->autoRepeat = false;
+			scr::Clear();
+			uint8_t pos = scr::SetPosition(0,0);
+			if ( (ns_archive::len == 0) && (eeprom_read_word(&ns_archive::lenEE) == 0) )
+			{
+				scr::PutChar(&pos, '-');
+			}
+			else
+			{
+				corCurTube_idx = ns_archive::idx;
+				if (corCurTube_idx == 0) corCurTube_idx = ARCHIVE_LEN - 1;
+				else corCurTube_idx--;
+				eeprom_read_block(&corCurTube_cell, &ns_archive::archive[corCurTube_idx], sizeof(archiveStruct));
+				scr::DigitZ(&pos, 3, corCurTube_cell.nTube);
+				scr::PutChar(&pos, ':');
+				scr::Digit(&pos, 5, corCurTube_cell.len);
+				//
+				int8_t sq = corCurTube_cell.sqBas;
+				if (sq < 0) sq = -sq;
+				calSq[0] = sq / 10;
+				calSq[1] = sq % 10;
+				calBas[0] = eeprom_read_word(&ns_vg::eeDistance[1]);
+				calBas[1] = eeprom_read_word(&ns_vg::eeDistance[calSq[1]]);
+				CalibScrViewQ();
+			}
+			calSqX = 0;
+		}
+		void CalibScrView(uint8_t k)
+		{
+			uint8_t pos;
+			// новая труба
+			if ( ns_vg::lenTubeNew )
+			{
+				ns_vg::lenTubeNew = 0;
+				scr::Clear();
+				pos = scr::SetPosition(0, 0);
+				if ( ns_vg::lenTubuStat == 10 )
+				{
+					scr::String_P(&pos, PSTR("ERROR   "));
+				}
+				if ( ns_vg::lenTubuStat == 1 )
+				{
+					scr::DigitZ(&pos, 3, ns_vg::nTube);
+					scr::PutChar(&pos, ':');
+					scr::Digit(&pos, 5, ns_vg::lenTube);
+				}
+				// датчики и досчет
+				uint8_t pos = scr::SetPosition(7, 1);
+				int8_t sq = ns_vg::sqBas;
+				if (sq < 0) sq = -sq;
+				calSq[0] = sq / 10;
+				calSq[1] = sq % 10;
+				calSqX = 0;
+				calBas[0] = eeprom_read_word(&ns_vg::eeDistance[1]);
+				calBas[1] = eeprom_read_word(&ns_vg::eeDistance[calSq[1]]);
+				//scr::DigitZ(&pos, 2, sq);
+				scr::PutChar(&pos, '0' + calSq[0]);
+				scr::PutChar(&pos, '0' + calSq[1]);
+				scr::String_P(&pos, PSTR(": "));
+				int16_t exl = ns_vg::lenTubuExl;
+				if (exl < 0 )
+				{
+					scr::PutChar(&pos, '-');
+					exl = -exl;
+				}
+				else scr::PutChar(&pos, '+');
+				scr::DigitZ(&pos, 4, exl);
+
+				CalibScrViewQ();
+			}
+
+		}
+		void CalibScrVV(uint8_t k)
+		{
+			key4->autoRepeat = false;
+			if (calSqX > 1) calSqX = 1;
+			if (calSqX == 0)
+			{
+				eeprom_update_word(&ns_vg::eeDistance[1], calBas[0]);
+			}
+			else
+			{
+				eeprom_update_word(&ns_vg::eeDistance[calSq[1]], calBas[1]);
+			}
+			calSqX = 1 - calSqX;
+			CalibScrViewQ();
+		}
+		void CalibScrBc(uint8_t k)
+		{
+			key4->autoRepeat = false;
+			SetMode(MAIN);
+		}
+		void CalibScrMn(uint8_t k)
+		{
+			key4->autoRepeat = true;
+			if (calBas[calSqX] > 0) calBas[calSqX]--;
+			CalibScrViewQ();
+		}
+		void CalibScrPl(uint8_t k)
+		{
+			key4->autoRepeat = true;
+			if (calBas[calSqX] > 15000) calBas[calSqX] = 15000;
+			if (calBas[calSqX] < 15000) calBas[calSqX]++;
+			CalibScrViewQ();
+		}
 		// ==============================
+		uint8_t sq2OnOffFl = 0;
+		void Sq2OnOffView()
+		{
+			if (sq2OnOffFl == 0)
+			{
+				scr::String_P(scr::SetPosition(9, 1), PSTR("off") );
+			}
+			else
+			{
+				scr::String_P(scr::SetPosition(9, 1), PSTR("on ") );
+				sq2OnOffFl = 1;
+			}
+		}
+		void Sq2OnOff(uint8_t k)
+		{
+			CRITICAL_SECTION { timeOut = 0; }
+			key4->autoRepeat = false;
+			sq2OnOffFl = eeprom_read_byte(&ns_vg::eeFlSq2);
+			scr::Clear();
+			scr::String_P(scr::SetPosition(0, 0), PSTR("mode render len") );
+			scr::String_P(scr::SetPosition(0, 1), PSTR("from SQ2 ") );
+			Sq2OnOffView();
+			CRITICAL_SECTION { timeOut = TIMEOUT_MENU; }
+		}
+		void Sq2OnOffBc(uint8_t k)
+		{
+			CRITICAL_SECTION { timeOut = 0; }
+			key4->autoRepeat = false;
+			SetMode(MENU_SELECT);
+		}
+		void Sq2OnOffMn(uint8_t k)
+		{
+			CRITICAL_SECTION { timeOut = TIMEOUT_MENU; }
+			key4->autoRepeat = false;
+			sq2OnOffFl = 0;
+			Sq2OnOffView();
+		}
+		void Sq2OnOffPl(uint8_t k)
+		{
+			CRITICAL_SECTION { timeOut = TIMEOUT_MENU; }
+			key4->autoRepeat = false;
+			sq2OnOffFl = 1;
+			Sq2OnOffView();
+		}
+		void Sq2OnOffVV(uint8_t k)
+		{
+			CRITICAL_SECTION { timeOut = 0; }
+			key4->autoRepeat = false;
+			eeprom_update_byte(&ns_vg::eeFlSq2, sq2OnOffFl);
+			scr::String_P(scr::SetPosition(0, 1), PSTR("   ***SAVE***   ") );
+			CRITICAL_SECTION { timeOut = 5000; }
+			SetMode(TIMEOUT_TO_MNSEL);
+		}
 		// ==============================
 		// ==============================
 		// ==============================
@@ -1183,7 +1375,7 @@ namespace ns_menu
 	{//					view				key1				key2				key3				key4				key5			 setmode			 timeout          
 		{	       Main_View,	       Main_menu,				Dupm,				Dupm,				Dupm,		 Main_ViewEx,       Main_SetMode,				Dupm },	// 0 main
 		{ Menu_CheckPassView, Menu_CheckPassBack,Menu_CheckPassMinus, Menu_CheckPassPlus,	Menu_CheckPassVv,				Dupm,     Menu_CheckPass, Menu_CheckPassTout },	// 1 menu check pass
-		{				Dupm,	 Menu_SelectBack,	Menu_SelectMinus,	 Menu_SelectPlus,	   Menu_SelectVV,				Dupm,		 Menu_Select,	 Menu_SelectTout },	// 2 menu select
+		{				Dupm,	 Menu_SelectBack,	Menu_SelectMinus,	 Menu_SelectPlus,	   Menu_SelectVV,	   Menu_SelectMM,		 Menu_Select,	 Menu_SelectTout },	// 2 menu select
 		{				Dupm,	 Edit_SensorBack,	Edit_SensorMinus,	 Edit_SensorPlus,	   Edit_SensorVV,				Dupm,		 Edit_Sensor,	 Edit_SensorTout }, // 3 edit sensor
 		{				Dupm,				Dupm,				Dupm,				Dupm,				Dupm,				Dupm,				Dupm,	  TimeoutToMainE }, // 4 timeout to main
 		{				Dupm,		Set_PassBack,	   Set_PassMinus,		Set_PassPlus,		  Set_PassVV,				Dupm,			Set_Pass,		Set_PassTout }, // 5 set password
@@ -1195,6 +1387,8 @@ namespace ns_menu
 		{				Dupm,ProtectIntervalBack,  ProtectIntervalMn,  ProtectIntervalPl,  ProtectIntervalEn,				Dupm,	 ProtectInterval,	 ZeroArc_TimeOut }, // 11 защитный интервал
 		{				Dupm,		TmIntegralBc,		TmIntegralMn,		TmIntegralPl,		TmIntegralEn,				Dupm,		  TmIntegral,	 ZeroArc_TimeOut }, // 12 время интегрирования
 		{				Dupm,		  CorSpeedBc,		  CorSpeedMn,		  CorSpeedPl,		  CorSpeedEn,				Dupm,			CorSpeed,	 ZeroArc_TimeOut },
+		{		CalibScrView,		  CalibScrBc,		  CalibScrMn,		  CalibScrPl,		  CalibScrVV,				Dupm,			CalibScr,				Dupm }, // 14 CALIBSCR
+		{				Dupm,		  Sq2OnOffBc,		  Sq2OnOffMn,		  Sq2OnOffPl,		  Sq2OnOffVV,				Dupm,			Sq2OnOff,				Dupm }, // 15 sq2 on/off
 		{				Dupm,				Dupm,				Dupm,				Dupm,				Dupm,				Dupm,				Dupm,				Dupm },
 		{				Dupm,				Dupm,				Dupm,				Dupm,				Dupm,				Dupm,				Dupm,				Dupm }
 	};

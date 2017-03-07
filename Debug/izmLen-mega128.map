@@ -609,7 +609,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x5f94
+.text           0x00000000     0x6630
  *(.vectors)
  .vectors       0x00000000       0x8c C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51/crtatmega128.o
                 0x00000000                __vector_default
@@ -653,738 +653,793 @@ END GROUP
                 0x000000d9        0x9 line.o
  .progmem.data._ZZ4mainE3__c
                 0x000000e2       0x13 main.o
- .progmem.data._ZZN7ns_menu8CorSpeedEhE3__c_0
-                0x000000f5        0xa menu.o
- .progmem.data._ZZN7ns_menu8CorSpeedEhE3__c
-                0x000000ff        0xa menu.o
- .progmem.data._ZZN7ns_menu10TmIntegralEhE3__c_0
-                0x00000109        0xb menu.o
- .progmem.data._ZZN7ns_menu10TmIntegralEhE3__c
-                0x00000114        0xd menu.o
- .progmem.data._ZZN7ns_menu15ProtectIntervalEhE3__c_0
-                0x00000121        0xa menu.o
- .progmem.data._ZZN7ns_menu15ProtectIntervalEhE3__c
+ .progmem.data._ZZN7ns_menu10Sq2OnOffVVEhE3__c
+                0x000000f5       0x11 menu.o
+ .progmem.data._ZZN7ns_menu8Sq2OnOffEhE3__c_0
+                0x00000106        0xa menu.o
+ .progmem.data._ZZN7ns_menu8Sq2OnOffEhE3__c
+                0x00000110       0x10 menu.o
+ .progmem.data._ZZN7ns_menu12Sq2OnOffViewEvE3__c_0
+                0x00000120        0x4 menu.o
+ .progmem.data._ZZN7ns_menu12Sq2OnOffViewEvE3__c
+                0x00000124        0x4 menu.o
+ .progmem.data._ZZN7ns_menu12CalibScrViewEhE3__c_0
+                0x00000128        0x3 menu.o
+ .progmem.data._ZZN7ns_menu12CalibScrViewEhE3__c
                 0x0000012b        0x9 menu.o
+ .progmem.data._ZZN7ns_menu8CorSpeedEhE3__c_0
+                0x00000134        0xa menu.o
+ .progmem.data._ZZN7ns_menu8CorSpeedEhE3__c
+                0x0000013e        0xa menu.o
+ .progmem.data._ZZN7ns_menu10TmIntegralEhE3__c_0
+                0x00000148        0xb menu.o
+ .progmem.data._ZZN7ns_menu10TmIntegralEhE3__c
+                0x00000153        0xd menu.o
+ .progmem.data._ZZN7ns_menu15ProtectIntervalEhE3__c_0
+                0x00000160        0xa menu.o
+ .progmem.data._ZZN7ns_menu15ProtectIntervalEhE3__c
+                0x0000016a        0x9 menu.o
  .progmem.data._ZZN7ns_menu7ZeroArcEhE3__c_0
-                0x00000134        0xc menu.o
+                0x00000173        0xc menu.o
  .progmem.data._ZZN7ns_menu7ZeroArcEhE3__c
-                0x00000140        0xd menu.o
+                0x0000017f        0xd menu.o
  .progmem.data._ZZN7ns_menu10CorCurTubeEhE3__c_2
-                0x0000014d        0x2 menu.o
+                0x0000018c        0x2 menu.o
  .progmem.data._ZZN7ns_menu10CorCurTubeEhE3__c_1
-                0x0000014f        0x2 menu.o
+                0x0000018e        0x2 menu.o
  .progmem.data._ZZN7ns_menu10CorCurTubeEhE3__c_0
-                0x00000151        0x3 menu.o
+                0x00000190        0x3 menu.o
  .progmem.data._ZZN7ns_menu10CorCurTubeEhE3__c
-                0x00000154        0x9 menu.o
+                0x00000193        0x9 menu.o
  .progmem.data._ZZN7ns_menu8view_arcEhE3__c_0
-                0x0000015d        0xb menu.o
+                0x0000019c        0xb menu.o
  .progmem.data._ZZN7ns_menu8view_arcEhE3__c
-                0x00000168        0x5 menu.o
+                0x000001a7        0x5 menu.o
  .progmem.data._ZZN7ns_menu10view_arcShEvE3__c
-                0x0000016d        0x4 menu.o
+                0x000001ac        0x4 menu.o
  .progmem.data._ZZN7ns_menu8Set_TimeEhE3__c
-                0x00000171        0xb menu.o
+                0x000001b0        0xb menu.o
  .progmem.data._ZZN7ns_menu12Set_TimeViewEvE3__c
-                0x0000017c        0x3 menu.o
+                0x000001bb        0x3 menu.o
  .progmem.data._ZZN7ns_menu10Set_PassVVEhE3__c
-                0x0000017f        0xb menu.o
+                0x000001be        0xb menu.o
  .progmem.data._ZZN7ns_menu8Set_PassEhE3__c
-                0x0000018a        0xf menu.o
+                0x000001c9        0xf menu.o
  .progmem.data._ZZN7ns_menu13Edit_SensorVVEhE3__c
-                0x00000199        0xe menu.o
+                0x000001d8        0xe menu.o
  .progmem.data._ZZN7ns_menu11Edit_SensorEhE3__c_0
-                0x000001a7        0x9 menu.o
+                0x000001e6        0x9 menu.o
  .progmem.data._ZZN7ns_menu11Edit_SensorEhE3__c
-                0x000001b0        0xf menu.o
+                0x000001ef        0xf menu.o
  .progmem.data._ZZN7ns_menu16Menu_CheckPassVvEhE3__c_0
-                0x000001bf       0x11 menu.o
+                0x000001fe       0x11 menu.o
  .progmem.data._ZZN7ns_menu16Menu_CheckPassVvEhE3__c
-                0x000001d0       0x11 menu.o
+                0x0000020f       0x11 menu.o
  .progmem.data._ZZN7ns_menu14Menu_CheckPassEhE3__c
-                0x000001e1       0x10 menu.o
+                0x00000220       0x10 menu.o
  .progmem.data._ZZN7ns_menu9Main_ViewEhE3__c
-                0x000001f1        0x9 menu.o
+                0x00000230        0x9 menu.o
  .progmem.data._ZZN7ns_menu11Main_ViewExEhE3__c
-                0x000001fa        0x3 menu.o
+                0x00000239        0x3 menu.o
  .progmem.data._ZZN7ns_menu9Main_vArcEvE3__c
-                0x000001fd        0x3 menu.o
+                0x0000023c        0x3 menu.o
  .progmem.data._ZN7ns_menuL19menuSelectTab_str12E
-                0x00000200       0x11 menu.o
+                0x0000023f       0x11 menu.o
  .progmem.data._ZN7ns_menuL19menuSelectTab_str11E
-                0x00000211       0x11 menu.o
+                0x00000250       0x11 menu.o
  .progmem.data._ZN7ns_menuL19menuSelectTab_str10E
-                0x00000222       0x11 menu.o
+                0x00000261       0x11 menu.o
  .progmem.data._ZN7ns_menuL18menuSelectTab_str9E
-                0x00000233       0x11 menu.o
+                0x00000272       0x11 menu.o
  .progmem.data._ZN7ns_menuL18menuSelectTab_str8E
-                0x00000244       0x11 menu.o
+                0x00000283       0x11 menu.o
  .progmem.data._ZN7ns_menuL18menuSelectTab_str7E
-                0x00000255       0x11 menu.o
+                0x00000294       0x11 menu.o
  .progmem.data._ZN7ns_menuL18menuSelectTab_str6E
-                0x00000266       0x11 menu.o
+                0x000002a5       0x11 menu.o
  .progmem.data._ZN7ns_menuL18menuSelectTab_str5E
-                0x00000277       0x11 menu.o
+                0x000002b6       0x11 menu.o
  .progmem.data._ZN7ns_menuL18menuSelectTab_str4E
-                0x00000288       0x11 menu.o
+                0x000002c7       0x11 menu.o
  .progmem.data._ZN7ns_menuL18menuSelectTab_str3E
-                0x00000299       0x11 menu.o
+                0x000002d8       0x11 menu.o
  .progmem.data._ZN7ns_menuL18menuSelectTab_str2E
-                0x000002aa       0x11 menu.o
+                0x000002e9       0x11 menu.o
  .progmem.data._ZN7ns_menuL18menuSelectTab_str1E
-                0x000002bb       0x11 menu.o
+                0x000002fa       0x11 menu.o
  .progmem.data._ZN7ns_menuL6ffPassE
-                0x000002cc        0x5 menu.o
+                0x0000030b        0x5 menu.o
  .progmem.data._ZN7ns_menu8MassFnMnE
-                0x000002d1      0x100 menu.o
-                0x000002d1                _ZN7ns_menu8MassFnMnE
+                0x00000310      0x120 menu.o
+                0x00000310                _ZN7ns_menu8MassFnMnE
  .progmem.data._ZN8ns_clock10nDayMountxE
-                0x000003d1       0x34 system/Clock.o
-                0x000003d1                _ZN8ns_clock10nDayMountxE
+                0x00000430       0x34 system/Clock.o
+                0x00000430                _ZN8ns_clock10nDayMountxE
  .progmem.data._ZN6ns_lcdL11symbol_workE
-                0x00000405       0x10 system/Lcd.o
+                0x00000464       0x10 system/Lcd.o
  .progmem.data._ZN6ns_lcdL10tabDecoderE
-                0x00000415       0x80 system/Lcd.o
-                0x00000496                . = ALIGN (0x2)
- *fill*         0x00000495        0x1 
+                0x00000474       0x80 system/Lcd.o
+                0x000004f4                . = ALIGN (0x2)
  *(.jumptables)
  *(.jumptables*)
  *(.lowtext)
  *(.lowtext*)
-                0x00000496                __ctors_start = .
+                0x000004f4                __ctors_start = .
  *(.ctors)
- .ctors         0x00000496        0x2 system/Lcd.o
-                0x00000498                __ctors_end = .
-                0x00000498                __dtors_start = .
+ .ctors         0x000004f4        0x2 system/Lcd.o
+                0x000004f6                __ctors_end = .
+                0x000004f6                __dtors_start = .
  *(.dtors)
-                0x00000498                __dtors_end = .
+                0x000004f6                __dtors_end = .
  SORT(*)(.ctors)
  SORT(*)(.dtors)
  *(.init0)
- .init0         0x00000498        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51/crtatmega128.o
-                0x00000498                __init
+ .init0         0x000004f6        0x0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51/crtatmega128.o
+                0x000004f6                __init
  *(.init0)
  *(.init1)
  *(.init1)
  *(.init2)
- .init2         0x00000498        0xc C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51/crtatmega128.o
+ .init2         0x000004f6        0xc C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51/crtatmega128.o
  *(.init2)
  *(.init3)
  *(.init3)
  *(.init4)
- .init4         0x000004a4       0x1a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
-                0x000004a4                __do_copy_data
- .init4         0x000004be       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
-                0x000004be                __do_clear_bss
+ .init4         0x00000502       0x1a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_copy_data.o)
+                0x00000502                __do_copy_data
+ .init4         0x0000051c       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_clear_bss.o)
+                0x0000051c                __do_clear_bss
  *(.init4)
  *(.init5)
  *(.init5)
  *(.init6)
- .init6         0x000004ce       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_ctors.o)
-                0x000004ce                __do_global_ctors
+ .init6         0x0000052c       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_ctors.o)
+                0x0000052c                __do_global_ctors
  *(.init6)
  *(.init7)
  *(.init7)
  *(.init8)
  *(.init8)
  *(.init9)
- .init9         0x000004e4        0x8 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51/crtatmega128.o
+ .init9         0x00000542        0x8 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51/crtatmega128.o
  *(.init9)
  *(.text)
- .text          0x000004ec        0x2 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51/crtatmega128.o
-                0x000004ec                __vector_22
-                0x000004ec                __vector_28
-                0x000004ec                __vector_1
-                0x000004ec                __vector_32
-                0x000004ec                __vector_34
-                0x000004ec                __vector_24
-                0x000004ec                __vector_12
-                0x000004ec                __bad_interrupt
-                0x000004ec                __vector_6
-                0x000004ec                __vector_31
-                0x000004ec                __vector_3
-                0x000004ec                __vector_23
-                0x000004ec                __vector_30
-                0x000004ec                __vector_25
-                0x000004ec                __vector_11
-                0x000004ec                __vector_13
-                0x000004ec                __vector_17
-                0x000004ec                __vector_7
-                0x000004ec                __vector_27
-                0x000004ec                __vector_5
-                0x000004ec                __vector_33
-                0x000004ec                __vector_4
-                0x000004ec                __vector_2
-                0x000004ec                __vector_21
-                0x000004ec                __vector_29
-                0x000004ec                __vector_8
-                0x000004ec                __vector_26
-                0x000004ec                __vector_14
-                0x000004ec                __vector_10
-                0x000004ec                __vector_16
-                0x000004ec                __vector_20
-                0x000004ee                . = ALIGN (0x2)
+ .text          0x0000054a        0x2 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51/crtatmega128.o
+                0x0000054a                __vector_22
+                0x0000054a                __vector_28
+                0x0000054a                __vector_1
+                0x0000054a                __vector_32
+                0x0000054a                __vector_34
+                0x0000054a                __vector_24
+                0x0000054a                __vector_12
+                0x0000054a                __bad_interrupt
+                0x0000054a                __vector_6
+                0x0000054a                __vector_31
+                0x0000054a                __vector_3
+                0x0000054a                __vector_23
+                0x0000054a                __vector_30
+                0x0000054a                __vector_25
+                0x0000054a                __vector_11
+                0x0000054a                __vector_13
+                0x0000054a                __vector_17
+                0x0000054a                __vector_7
+                0x0000054a                __vector_27
+                0x0000054a                __vector_5
+                0x0000054a                __vector_33
+                0x0000054a                __vector_4
+                0x0000054a                __vector_2
+                0x0000054a                __vector_21
+                0x0000054a                __vector_29
+                0x0000054a                __vector_8
+                0x0000054a                __vector_26
+                0x0000054a                __vector_14
+                0x0000054a                __vector_10
+                0x0000054a                __vector_16
+                0x0000054a                __vector_20
+                0x0000054c                . = ALIGN (0x2)
  *(.text.*)
  .text._ZN10ns_archive4InitEv
-                0x000004ee       0x68 Archive.o
-                0x000004ee                _ZN10ns_archive4InitEv
+                0x0000054c       0x68 Archive.o
+                0x0000054c                _ZN10ns_archive4InitEv
  .text._ZN10ns_archive4PushEhhhhhjja
-                0x00000556       0xe2 Archive.o
-                0x00000556                _ZN10ns_archive4PushEhhhhhjja
+                0x000005b4       0xe2 Archive.o
+                0x000005b4                _ZN10ns_archive4PushEhhhhhjja
  .text._ZN10ns_archive4SummEPm
-                0x00000638       0xdc Archive.o
-                0x00000638                _ZN10ns_archive4SummEPm
+                0x00000696       0xdc Archive.o
+                0x00000696                _ZN10ns_archive4SummEPm
  .text._ZN10ns_archive8SummZeroEv
-                0x00000714       0x2e Archive.o
-                0x00000714                _ZN10ns_archive8SummZeroEv
+                0x00000772       0x2e Archive.o
+                0x00000772                _ZN10ns_archive8SummZeroEv
  .text._ZN10ns_archive9InterruptEv
-                0x00000742       0x48 Archive.o
-                0x00000742                _ZN10ns_archive9InterruptEv
+                0x000007a0       0x48 Archive.o
+                0x000007a0                _ZN10ns_archive9InterruptEv
  .text._ZN10ns_archive4MainEv
-                0x0000078a       0x56 Archive.o
-                0x0000078a                _ZN10ns_archive4MainEv
+                0x000007e8       0x56 Archive.o
+                0x000007e8                _ZN10ns_archive4MainEv
  .text._ZN7ns_line4InitEv
-                0x000007e0      0x354 line.o
-                0x000007e0                _ZN7ns_line4InitEv
+                0x0000083e      0x360 line.o
+                0x0000083e                _ZN7ns_line4InitEv
  .text._ZN7ns_line9InterruptEv
-                0x00000b34      0x4f8 line.o
-                0x00000b34                _ZN7ns_line9InterruptEv
+                0x00000b9e      0x4f8 line.o
+                0x00000b9e                _ZN7ns_line9InterruptEv
  .text._ZN7ns_line8sendTeleEjajj
-                0x0000102c      0x1c0 line.o
-                0x0000102c                _ZN7ns_line8sendTeleEjajj
+                0x00001096      0x1c0 line.o
+                0x00001096                _ZN7ns_line8sendTeleEjajj
  .text._ZN7ns_line6RenderEPjPa
-                0x000011ec     0x1378 line.o
-                0x000011ec                _ZN7ns_line6RenderEPjPa
- .text.main     0x00002564       0xe6 main.o
-                0x00002564                main
+                0x00001256     0x138e line.o
+                0x00001256                _ZN7ns_line6RenderEPjPa
+ .text.main     0x000025e4       0xe6 main.o
+                0x000025e4                main
  .text._ZN7ns_menu4DupmEh
-                0x0000264a        0x2 menu.o
-                0x0000264a                _ZN7ns_menu4DupmEh
+                0x000026ca        0x2 menu.o
+                0x000026ca                _ZN7ns_menu4DupmEh
  .text._ZN7ns_menu11Main_ViewExEh
-                0x0000264c       0x8a menu.o
-                0x0000264c                _ZN7ns_menu11Main_ViewExEh
+                0x000026cc       0x8a menu.o
+                0x000026cc                _ZN7ns_menu11Main_ViewExEh
  .text._ZN7ns_menu18Menu_CheckPassViewEh
-                0x000026d6       0x80 menu.o
-                0x000026d6                _ZN7ns_menu18Menu_CheckPassViewEh
+                0x00002756       0x80 menu.o
+                0x00002756                _ZN7ns_menu18Menu_CheckPassViewEh
  .text._ZN7ns_menu19Menu_CheckPassMinusEh
-                0x00002756       0x4a menu.o
-                0x00002756                _ZN7ns_menu19Menu_CheckPassMinusEh
+                0x000027d6       0x4a menu.o
+                0x000027d6                _ZN7ns_menu19Menu_CheckPassMinusEh
  .text._ZN7ns_menu18Menu_CheckPassPlusEh
-                0x000027a0       0x4a menu.o
-                0x000027a0                _ZN7ns_menu18Menu_CheckPassPlusEh
+                0x00002820       0x4a menu.o
+                0x00002820                _ZN7ns_menu18Menu_CheckPassPlusEh
  .text._ZN7ns_menu14Menu_CheckPassEh
-                0x000027ea       0x66 menu.o
-                0x000027ea                _ZN7ns_menu14Menu_CheckPassEh
+                0x0000286a       0x66 menu.o
+                0x0000286a                _ZN7ns_menu14Menu_CheckPassEh
  .text._ZN7ns_menu7ZeroArcEh
-                0x00002850       0x4e menu.o
-                0x00002850                _ZN7ns_menu7ZeroArcEh
+                0x000028d0       0x4e menu.o
+                0x000028d0                _ZN7ns_menu7ZeroArcEh
  .text._ZN7ns_menu7SetModeEh
-                0x0000289e       0x1c menu.o
-                0x0000289e                _ZN7ns_menu7SetModeEh
+                0x0000291e       0x1c menu.o
+                0x0000291e                _ZN7ns_menu7SetModeEh
  .text._ZN7ns_menu9Main_menuEh
-                0x000028ba        0x6 menu.o
-                0x000028ba                _ZN7ns_menu9Main_menuEh
+                0x0000293a        0x6 menu.o
+                0x0000293a                _ZN7ns_menu9Main_menuEh
  .text._ZN7ns_menu18Menu_CheckPassBackEh
-                0x000028c0       0x4a menu.o
-                0x000028c0                _ZN7ns_menu18Menu_CheckPassBackEh
+                0x00002940       0x4a menu.o
+                0x00002940                _ZN7ns_menu18Menu_CheckPassBackEh
  .text._ZN7ns_menu16Menu_CheckPassVvEh
-                0x0000290a       0xfa menu.o
-                0x0000290a                _ZN7ns_menu16Menu_CheckPassVvEh
+                0x0000298a       0xfa menu.o
+                0x0000298a                _ZN7ns_menu16Menu_CheckPassVvEh
  .text._ZN7ns_menu18Menu_CheckPassToutEh
-                0x00002a04       0x1c menu.o
-                0x00002a04                _ZN7ns_menu18Menu_CheckPassToutEh
+                0x00002a84       0x1c menu.o
+                0x00002a84                _ZN7ns_menu18Menu_CheckPassToutEh
  .text._ZN7ns_menu15Menu_SelectBackEh
-                0x00002a20       0x1c menu.o
-                0x00002a20                _ZN7ns_menu15Menu_SelectBackEh
+                0x00002aa0       0x1c menu.o
+                0x00002aa0                _ZN7ns_menu15Menu_SelectBackEh
+ .text._ZN7ns_menu13Menu_SelectMMEh
+                0x00002abc       0x2a menu.o
+                0x00002abc                _ZN7ns_menu13Menu_SelectMMEh
  .text._ZN7ns_menu13Menu_SelectVVEh
-                0x00002a3c       0xca menu.o
-                0x00002a3c                _ZN7ns_menu13Menu_SelectVVEh
+                0x00002ae6       0xca menu.o
+                0x00002ae6                _ZN7ns_menu13Menu_SelectVVEh
  .text._ZN7ns_menu15Menu_SelectToutEh
-                0x00002b06       0x1c menu.o
-                0x00002b06                _ZN7ns_menu15Menu_SelectToutEh
+                0x00002bb0       0x1c menu.o
+                0x00002bb0                _ZN7ns_menu15Menu_SelectToutEh
  .text._ZN7ns_menu15Edit_SensorBackEh
-                0x00002b22       0x26 menu.o
-                0x00002b22                _ZN7ns_menu15Edit_SensorBackEh
+                0x00002bcc       0x26 menu.o
+                0x00002bcc                _ZN7ns_menu15Edit_SensorBackEh
  .text._ZN7ns_menu13Edit_SensorVVEh
-                0x00002b48       0x6e menu.o
-                0x00002b48                _ZN7ns_menu13Edit_SensorVVEh
+                0x00002bf2       0x6e menu.o
+                0x00002bf2                _ZN7ns_menu13Edit_SensorVVEh
  .text._ZN7ns_menu15Edit_SensorToutEh
-                0x00002bb6       0x1c menu.o
-                0x00002bb6                _ZN7ns_menu15Edit_SensorToutEh
+                0x00002c60       0x1c menu.o
+                0x00002c60                _ZN7ns_menu15Edit_SensorToutEh
  .text._ZN7ns_menu14TimeoutToMainEEh
-                0x00002bd2        0x6 menu.o
-                0x00002bd2                _ZN7ns_menu14TimeoutToMainEEh
+                0x00002c7c        0x6 menu.o
+                0x00002c7c                _ZN7ns_menu14TimeoutToMainEEh
  .text._ZN7ns_menu12Set_PassBackEh
-                0x00002bd8       0x36 menu.o
-                0x00002bd8                _ZN7ns_menu12Set_PassBackEh
+                0x00002c82       0x36 menu.o
+                0x00002c82                _ZN7ns_menu12Set_PassBackEh
  .text._ZN7ns_menu12Set_PassToutEh
-                0x00002c0e       0x1c menu.o
-                0x00002c0e                _ZN7ns_menu12Set_PassToutEh
+                0x00002cb8       0x1c menu.o
+                0x00002cb8                _ZN7ns_menu12Set_PassToutEh
  .text._ZN7ns_menu14TimeoutToMnSelEh
-                0x00002c2a       0x1c menu.o
-                0x00002c2a                _ZN7ns_menu14TimeoutToMnSelEh
+                0x00002cd4       0x1c menu.o
+                0x00002cd4                _ZN7ns_menu14TimeoutToMnSelEh
  .text._ZN7ns_menu12Set_TimeToutEh
-                0x00002c46       0x1c menu.o
-                0x00002c46                _ZN7ns_menu12Set_TimeToutEh
+                0x00002cf0       0x1c menu.o
+                0x00002cf0                _ZN7ns_menu12Set_TimeToutEh
  .text._ZN7ns_menu12view_arcBackEh
-                0x00002c62       0x10 menu.o
-                0x00002c62                _ZN7ns_menu12view_arcBackEh
+                0x00002d0c       0x10 menu.o
+                0x00002d0c                _ZN7ns_menu12view_arcBackEh
  .text._ZN7ns_menu14CorCurTubeBackEh
-                0x00002c72       0x26 menu.o
-                0x00002c72                _ZN7ns_menu14CorCurTubeBackEh
+                0x00002d1c       0x26 menu.o
+                0x00002d1c                _ZN7ns_menu14CorCurTubeBackEh
  .text._ZN7ns_menu12CorCurTubeEnEh
-                0x00002c98       0x40 menu.o
-                0x00002c98                _ZN7ns_menu12CorCurTubeEnEh
+                0x00002d42       0x40 menu.o
+                0x00002d42                _ZN7ns_menu12CorCurTubeEnEh
  .text._ZN7ns_menu11ZeroArc_YesEh
-                0x00002cd8       0x20 menu.o
-                0x00002cd8                _ZN7ns_menu11ZeroArc_YesEh
+                0x00002d82       0x20 menu.o
+                0x00002d82                _ZN7ns_menu11ZeroArc_YesEh
  .text._ZN7ns_menu12ZeroArc_MenuEh
-                0x00002cf8       0x1c menu.o
-                0x00002cf8                _ZN7ns_menu12ZeroArc_MenuEh
+                0x00002da2       0x1c menu.o
+                0x00002da2                _ZN7ns_menu12ZeroArc_MenuEh
  .text._ZN7ns_menu15ZeroArc_TimeOutEh
-                0x00002d14       0x1c menu.o
-                0x00002d14                _ZN7ns_menu15ZeroArc_TimeOutEh
+                0x00002dbe       0x1c menu.o
+                0x00002dbe                _ZN7ns_menu15ZeroArc_TimeOutEh
  .text._ZN7ns_menu19ProtectIntervalBackEh
-                0x00002d30       0x1c menu.o
-                0x00002d30                _ZN7ns_menu19ProtectIntervalBackEh
+                0x00002dda       0x1c menu.o
+                0x00002dda                _ZN7ns_menu19ProtectIntervalBackEh
  .text._ZN7ns_menu17ProtectIntervalEnEh
-                0x00002d4c       0x4c menu.o
-                0x00002d4c                _ZN7ns_menu17ProtectIntervalEnEh
+                0x00002df6       0x4c menu.o
+                0x00002df6                _ZN7ns_menu17ProtectIntervalEnEh
  .text._ZN7ns_menu12TmIntegralBcEh
-                0x00002d98       0x26 menu.o
-                0x00002d98                _ZN7ns_menu12TmIntegralBcEh
+                0x00002e42       0x26 menu.o
+                0x00002e42                _ZN7ns_menu12TmIntegralBcEh
  .text._ZN7ns_menu12TmIntegralEnEh
-                0x00002dbe       0x9e menu.o
-                0x00002dbe                _ZN7ns_menu12TmIntegralEnEh
+                0x00002e68       0x9e menu.o
+                0x00002e68                _ZN7ns_menu12TmIntegralEnEh
  .text._ZN7ns_menu10CorSpeedEnEh
-                0x00002e5c       0x32 menu.o
-                0x00002e5c                _ZN7ns_menu10CorSpeedEnEh
+                0x00002f06       0x32 menu.o
+                0x00002f06                _ZN7ns_menu10CorSpeedEnEh
  .text._ZN7ns_menu10CorSpeedBcEh
-                0x00002e8e       0x26 menu.o
-                0x00002e8e                _ZN7ns_menu10CorSpeedBcEh
+                0x00002f38       0x26 menu.o
+                0x00002f38                _ZN7ns_menu10CorSpeedBcEh
+ .text._ZN7ns_menu10CalibScrBcEh
+                0x00002f5e       0x10 menu.o
+                0x00002f5e                _ZN7ns_menu10CalibScrBcEh
+ .text._ZN7ns_menu10Sq2OnOffBcEh
+                0x00002f6e       0x26 menu.o
+                0x00002f6e                _ZN7ns_menu10Sq2OnOffBcEh
+ .text._ZN7ns_menu10Sq2OnOffVVEh
+                0x00002f94       0x60 menu.o
+                0x00002f94                _ZN7ns_menu10Sq2OnOffVVEh
  .text._ZN7ns_menu4InitEv
-                0x00002eb4        0x6 menu.o
-                0x00002eb4                _ZN7ns_menu4InitEv
+                0x00002ff4        0x6 menu.o
+                0x00002ff4                _ZN7ns_menu4InitEv
  .text._ZN7ns_menu4MainEv
-                0x00002eba       0x9c menu.o
-                0x00002eba                _ZN7ns_menu4MainEv
+                0x00002ffa       0x9c menu.o
+                0x00002ffa                _ZN7ns_menu4MainEv
  .text._ZN7ns_menu9InterruptEv
-                0x00002f56       0x38 menu.o
-                0x00002f56                _ZN7ns_menu9InterruptEv
+                0x00003096       0x38 menu.o
+                0x00003096                _ZN7ns_menu9InterruptEv
  .text._ZN7ns_menu9Main_vArcEv
-                0x00002f8e       0x4e menu.o
-                0x00002f8e                _ZN7ns_menu9Main_vArcEv
+                0x000030ce       0x4e menu.o
+                0x000030ce                _ZN7ns_menu9Main_vArcEv
  .text._ZN7ns_menu12Main_SetModeEh
-                0x00002fdc       0xe2 menu.o
-                0x00002fdc                _ZN7ns_menu12Main_SetModeEh
+                0x0000311c       0xe2 menu.o
+                0x0000311c                _ZN7ns_menu12Main_SetModeEh
  .text._ZN7ns_menu9Main_ViewEh
-                0x000030be      0x12c menu.o
-                0x000030be                _ZN7ns_menu9Main_ViewEh
+                0x000031fe      0x12c menu.o
+                0x000031fe                _ZN7ns_menu9Main_ViewEh
  .text._ZN7ns_menu15Menu_SelectViewEh
-                0x000031ea       0x1e menu.o
-                0x000031ea                _ZN7ns_menu15Menu_SelectViewEh
+                0x0000332a       0x1e menu.o
+                0x0000332a                _ZN7ns_menu15Menu_SelectViewEh
  .text._ZN7ns_menu11Menu_SelectEh
-                0x00003208       0x5e menu.o
-                0x00003208                _ZN7ns_menu11Menu_SelectEh
+                0x00003348       0x5e menu.o
+                0x00003348                _ZN7ns_menu11Menu_SelectEh
  .text._ZN7ns_menu16Menu_SelectMinusEh
-                0x00003266       0x3a menu.o
-                0x00003266                _ZN7ns_menu16Menu_SelectMinusEh
+                0x000033a6       0x3a menu.o
+                0x000033a6                _ZN7ns_menu16Menu_SelectMinusEh
  .text._ZN7ns_menu15Menu_SelectPlusEh
-                0x000032a0       0x3a menu.o
-                0x000032a0                _ZN7ns_menu15Menu_SelectPlusEh
+                0x000033e0       0x3a menu.o
+                0x000033e0                _ZN7ns_menu15Menu_SelectPlusEh
  .text._ZN7ns_menu15Edit_SensorViewEh
-                0x000032da       0x18 menu.o
-                0x000032da                _ZN7ns_menu15Edit_SensorViewEh
+                0x0000341a       0x18 menu.o
+                0x0000341a                _ZN7ns_menu15Edit_SensorViewEh
  .text._ZN7ns_menu11Edit_SensorEh
-                0x000032f2       0xc4 menu.o
-                0x000032f2                _ZN7ns_menu11Edit_SensorEh
+                0x00003432       0xc4 menu.o
+                0x00003432                _ZN7ns_menu11Edit_SensorEh
  .text._ZN7ns_menu16Edit_SensorMinusEh
-                0x000033b6       0x48 menu.o
-                0x000033b6                _ZN7ns_menu16Edit_SensorMinusEh
+                0x000034f6       0x48 menu.o
+                0x000034f6                _ZN7ns_menu16Edit_SensorMinusEh
  .text._ZN7ns_menu15Edit_SensorPlusEh
-                0x000033fe       0x4a menu.o
-                0x000033fe                _ZN7ns_menu15Edit_SensorPlusEh
+                0x0000353e       0x4a menu.o
+                0x0000353e                _ZN7ns_menu15Edit_SensorPlusEh
  .text._ZN7ns_menu12Set_PassViewEh
-                0x00003448       0x80 menu.o
-                0x00003448                _ZN7ns_menu12Set_PassViewEh
+                0x00003588       0x80 menu.o
+                0x00003588                _ZN7ns_menu12Set_PassViewEh
  .text._ZN7ns_menu8Set_PassEh
-                0x000034c8       0x70 menu.o
-                0x000034c8                _ZN7ns_menu8Set_PassEh
+                0x00003608       0x70 menu.o
+                0x00003608                _ZN7ns_menu8Set_PassEh
  .text._ZN7ns_menu13Set_PassMinusEh
-                0x00003538       0x4a menu.o
-                0x00003538                _ZN7ns_menu13Set_PassMinusEh
+                0x00003678       0x4a menu.o
+                0x00003678                _ZN7ns_menu13Set_PassMinusEh
  .text._ZN7ns_menu12Set_PassPlusEh
-                0x00003582       0x4a menu.o
-                0x00003582                _ZN7ns_menu12Set_PassPlusEh
+                0x000036c2       0x4a menu.o
+                0x000036c2                _ZN7ns_menu12Set_PassPlusEh
  .text._ZN7ns_menu10Set_PassVVEh
-                0x000035cc       0xc6 menu.o
-                0x000035cc                _ZN7ns_menu10Set_PassVVEh
+                0x0000370c       0xc6 menu.o
+                0x0000370c                _ZN7ns_menu10Set_PassVVEh
  .text._ZN7ns_menu12Set_TimeViewEv
-                0x00003692      0x180 menu.o
-                0x00003692                _ZN7ns_menu12Set_TimeViewEv
+                0x000037d2      0x180 menu.o
+                0x000037d2                _ZN7ns_menu12Set_TimeViewEv
  .text._ZN7ns_menu8Set_TimeEh
-                0x00003812       0x76 menu.o
-                0x00003812                _ZN7ns_menu8Set_TimeEh
+                0x00003952       0x76 menu.o
+                0x00003952                _ZN7ns_menu8Set_TimeEh
  .text._ZN7ns_menu13Set_TimeMinusEh
-                0x00003888       0x62 menu.o
-                0x00003888                _ZN7ns_menu13Set_TimeMinusEh
+                0x000039c8       0x62 menu.o
+                0x000039c8                _ZN7ns_menu13Set_TimeMinusEh
  .text._ZN7ns_menu12Set_TimePlusEh
-                0x000038ea       0x80 menu.o
-                0x000038ea                _ZN7ns_menu12Set_TimePlusEh
+                0x00003a2a       0x80 menu.o
+                0x00003a2a                _ZN7ns_menu12Set_TimePlusEh
  .text._ZN7ns_menu11Set_TimeEntEh
-                0x0000396a       0x74 menu.o
-                0x0000396a                _ZN7ns_menu11Set_TimeEntEh
+                0x00003aaa       0x82 menu.o
+                0x00003aaa                _ZN7ns_menu11Set_TimeEntEh
  .text._ZN7ns_menu12Set_TimeBackEh
-                0x000039de       0x5c menu.o
-                0x000039de                _ZN7ns_menu12Set_TimeBackEh
+                0x00003b2c       0x5c menu.o
+                0x00003b2c                _ZN7ns_menu12Set_TimeBackEh
  .text._ZN7ns_menu10view_arcShEv
-                0x00003a3a      0x144 menu.o
-                0x00003a3a                _ZN7ns_menu10view_arcShEv
+                0x00003b88      0x144 menu.o
+                0x00003b88                _ZN7ns_menu10view_arcShEv
  .text._ZN7ns_menu8view_arcEh
-                0x00003b7e       0xd0 menu.o
-                0x00003b7e                _ZN7ns_menu8view_arcEh
+                0x00003ccc       0xd0 menu.o
+                0x00003ccc                _ZN7ns_menu8view_arcEh
  .text._ZN7ns_menu10view_arcEnEh
-                0x00003c4e       0x6a menu.o
-                0x00003c4e                _ZN7ns_menu10view_arcEnEh
+                0x00003d9c       0x6a menu.o
+                0x00003d9c                _ZN7ns_menu10view_arcEnEh
  .text._ZN7ns_menu13view_arcMinusEh
-                0x00003cb8       0x26 menu.o
-                0x00003cb8                _ZN7ns_menu13view_arcMinusEh
+                0x00003e06       0x26 menu.o
+                0x00003e06                _ZN7ns_menu13view_arcMinusEh
  .text._ZN7ns_menu12view_arcPlusEh
-                0x00003cde       0x44 menu.o
-                0x00003cde                _ZN7ns_menu12view_arcPlusEh
+                0x00003e2c       0x44 menu.o
+                0x00003e2c                _ZN7ns_menu12view_arcPlusEh
  .text._ZN7ns_menu12CorCurTubeShEv
-                0x00003d22       0x4e menu.o
-                0x00003d22                _ZN7ns_menu12CorCurTubeShEv
+                0x00003e70       0x4e menu.o
+                0x00003e70                _ZN7ns_menu12CorCurTubeShEv
  .text._ZN7ns_menu10CorCurTubeEh
-                0x00003d70      0x1a2 menu.o
-                0x00003d70                _ZN7ns_menu10CorCurTubeEh
+                0x00003ebe      0x1a4 menu.o
+                0x00003ebe                _ZN7ns_menu10CorCurTubeEh
  .text._ZN7ns_menu15CorCurTubeMinusEh
-                0x00003f12       0x52 menu.o
-                0x00003f12                _ZN7ns_menu15CorCurTubeMinusEh
+                0x00004062       0x52 menu.o
+                0x00004062                _ZN7ns_menu15CorCurTubeMinusEh
  .text._ZN7ns_menu14CorCurTubePlusEh
-                0x00003f64       0x52 menu.o
-                0x00003f64                _ZN7ns_menu14CorCurTubePlusEh
+                0x000040b4       0x52 menu.o
+                0x000040b4                _ZN7ns_menu14CorCurTubePlusEh
  .text._ZN7ns_menu19ProtectIntervalViewEv
-                0x00003fb6       0x48 menu.o
-                0x00003fb6                _ZN7ns_menu19ProtectIntervalViewEv
+                0x00004106       0x4a menu.o
+                0x00004106                _ZN7ns_menu19ProtectIntervalViewEv
  .text._ZN7ns_menu15ProtectIntervalEh
-                0x00003ffe       0x86 menu.o
-                0x00003ffe                _ZN7ns_menu15ProtectIntervalEh
+                0x00004150       0x8c menu.o
+                0x00004150                _ZN7ns_menu15ProtectIntervalEh
  .text._ZN7ns_menu17ProtectIntervalPlEh
-                0x00004084       0x48 menu.o
-                0x00004084                _ZN7ns_menu17ProtectIntervalPlEh
+                0x000041dc       0x48 menu.o
+                0x000041dc                _ZN7ns_menu17ProtectIntervalPlEh
  .text._ZN7ns_menu17ProtectIntervalMnEh
-                0x000040cc       0x46 menu.o
-                0x000040cc                _ZN7ns_menu17ProtectIntervalMnEh
+                0x00004224       0x46 menu.o
+                0x00004224                _ZN7ns_menu17ProtectIntervalMnEh
  .text._ZN7ns_menu14TmIntegralViewEv
-                0x00004112       0x48 menu.o
-                0x00004112                _ZN7ns_menu14TmIntegralViewEv
+                0x0000426a       0x4a menu.o
+                0x0000426a                _ZN7ns_menu14TmIntegralViewEv
  .text._ZN7ns_menu10TmIntegralEh
-                0x0000415a       0x82 menu.o
-                0x0000415a                _ZN7ns_menu10TmIntegralEh
+                0x000042b4       0x8c menu.o
+                0x000042b4                _ZN7ns_menu10TmIntegralEh
  .text._ZN7ns_menu12TmIntegralMnEh
-                0x000041dc       0x46 menu.o
-                0x000041dc                _ZN7ns_menu12TmIntegralMnEh
+                0x00004340       0x46 menu.o
+                0x00004340                _ZN7ns_menu12TmIntegralMnEh
  .text._ZN7ns_menu12TmIntegralPlEh
-                0x00004222       0x48 menu.o
-                0x00004222                _ZN7ns_menu12TmIntegralPlEh
+                0x00004386       0x48 menu.o
+                0x00004386                _ZN7ns_menu12TmIntegralPlEh
  .text._ZN7ns_menu12CorSpeedViewEv
-                0x0000426a       0x48 menu.o
-                0x0000426a                _ZN7ns_menu12CorSpeedViewEv
+                0x000043ce       0x4c menu.o
+                0x000043ce                _ZN7ns_menu12CorSpeedViewEv
  .text._ZN7ns_menu8CorSpeedEh
-                0x000042b2       0x52 menu.o
-                0x000042b2                _ZN7ns_menu8CorSpeedEh
+                0x0000441a       0x5a menu.o
+                0x0000441a                _ZN7ns_menu8CorSpeedEh
  .text._ZN7ns_menu10CorSpeedMnEh
-                0x00004304       0x3c menu.o
-                0x00004304                _ZN7ns_menu10CorSpeedMnEh
+                0x00004474       0x3c menu.o
+                0x00004474                _ZN7ns_menu10CorSpeedMnEh
  .text._ZN7ns_menu10CorSpeedPlEh
-                0x00004340       0x3c menu.o
-                0x00004340                _ZN7ns_menu10CorSpeedPlEh
+                0x000044b0       0x3c menu.o
+                0x000044b0                _ZN7ns_menu10CorSpeedPlEh
+ .text._ZN7ns_menu13CalibScrViewQEv
+                0x000044ec       0x94 menu.o
+                0x000044ec                _ZN7ns_menu13CalibScrViewQEv
+ .text._ZN7ns_menu8CalibScrEh
+                0x00004580      0x154 menu.o
+                0x00004580                _ZN7ns_menu8CalibScrEh
+ .text._ZN7ns_menu12CalibScrViewEh
+                0x000046d4      0x160 menu.o
+                0x000046d4                _ZN7ns_menu12CalibScrViewEh
+ .text._ZN7ns_menu10CalibScrVVEh
+                0x00004834       0x5a menu.o
+                0x00004834                _ZN7ns_menu10CalibScrVVEh
+ .text._ZN7ns_menu10CalibScrMnEh
+                0x0000488e       0x3c menu.o
+                0x0000488e                _ZN7ns_menu10CalibScrMnEh
+ .text._ZN7ns_menu10CalibScrPlEh
+                0x000048ca       0x5a menu.o
+                0x000048ca                _ZN7ns_menu10CalibScrPlEh
+ .text._ZN7ns_menu12Sq2OnOffViewEv
+                0x00004924       0x2a menu.o
+                0x00004924                _ZN7ns_menu12Sq2OnOffViewEv
+ .text._ZN7ns_menu8Sq2OnOffEh
+                0x0000494e       0x68 menu.o
+                0x0000494e                _ZN7ns_menu8Sq2OnOffEh
+ .text._ZN7ns_menu10Sq2OnOffMnEh
+                0x000049b6       0x30 menu.o
+                0x000049b6                _ZN7ns_menu10Sq2OnOffMnEh
+ .text._ZN7ns_menu10Sq2OnOffPlEh
+                0x000049e6       0x32 menu.o
+                0x000049e6                _ZN7ns_menu10Sq2OnOffPlEh
  .text._ZN9ns_module4InitEv
-                0x0000437c        0xe Module.o
-                0x0000437c                _ZN9ns_module4InitEv
+                0x00004a18        0xe Module.o
+                0x00004a18                _ZN9ns_module4InitEv
  .text._ZN9ns_module17InterruptLcdTimerEv
-                0x0000438a        0xa Module.o
-                0x0000438a                _ZN9ns_module17InterruptLcdTimerEv
+                0x00004a26        0xa Module.o
+                0x00004a26                _ZN9ns_module17InterruptLcdTimerEv
  .text._ZN9ns_module18InterruptMainTimerEv
-                0x00004394        0x6 Module.o
-                0x00004394                _ZN9ns_module18InterruptMainTimerEv
+                0x00004a30        0x6 Module.o
+                0x00004a30                _ZN9ns_module18InterruptMainTimerEv
  .text._ZN8ns_clock5StartEv
-                0x0000439a       0x1a system/Clock.o
-                0x0000439a                _ZN8ns_clock5StartEv
+                0x00004a36       0x1a system/Clock.o
+                0x00004a36                _ZN8ns_clock5StartEv
  .text._ZN8ns_clock4StopEv
-                0x000043b4       0x18 system/Clock.o
-                0x000043b4                _ZN8ns_clock4StopEv
+                0x00004a50       0x18 system/Clock.o
+                0x00004a50                _ZN8ns_clock4StopEv
  .text._ZN8ns_clock5ClockEv
-                0x000043cc       0x22 system/Clock.o
-                0x000043cc                _ZN8ns_clock5ClockEv
+                0x00004a68       0x22 system/Clock.o
+                0x00004a68                _ZN8ns_clock5ClockEv
  .text._ZN8ns_clock3AckEv
-                0x000043ee        0x8 system/Clock.o
-                0x000043ee                _ZN8ns_clock3AckEv
+                0x00004a8a        0x8 system/Clock.o
+                0x00004a8a                _ZN8ns_clock3AckEv
  .text._ZN8ns_clock4NackEv
-                0x000043f6        0x6 system/Clock.o
-                0x000043f6                _ZN8ns_clock4NackEv
+                0x00004a92        0x6 system/Clock.o
+                0x00004a92                _ZN8ns_clock4NackEv
  .text._ZN8ns_clock6RecAckEv
-                0x000043fc        0x8 system/Clock.o
-                0x000043fc                _ZN8ns_clock6RecAckEv
+                0x00004a98        0x8 system/Clock.o
+                0x00004a98                _ZN8ns_clock6RecAckEv
  .text._ZN8ns_clock6InByteEv
-                0x00004404       0x28 system/Clock.o
-                0x00004404                _ZN8ns_clock6InByteEv
+                0x00004aa0       0x28 system/Clock.o
+                0x00004aa0                _ZN8ns_clock6InByteEv
  .text._ZN8ns_clock7OutByteEh
-                0x0000442c       0x20 system/Clock.o
-                0x0000442c                _ZN8ns_clock7OutByteEh
+                0x00004ac8       0x20 system/Clock.o
+                0x00004ac8                _ZN8ns_clock7OutByteEh
  .text._ZN8ns_clock6WrPollEv
-                0x0000444c        0xa system/Clock.o
-                0x0000444c                _ZN8ns_clock6WrPollEv
+                0x00004ae8        0xa system/Clock.o
+                0x00004ae8                _ZN8ns_clock6WrPollEv
  .text._ZN8ns_clock14ClockBuffWriteEv
-                0x00004456       0x3a system/Clock.o
-                0x00004456                _ZN8ns_clock14ClockBuffWriteEv
+                0x00004af2       0x3a system/Clock.o
+                0x00004af2                _ZN8ns_clock14ClockBuffWriteEv
  .text._ZN8ns_clock13ClockBuffReadEv
-                0x00004490       0x4a system/Clock.o
-                0x00004490                _ZN8ns_clock13ClockBuffReadEv
+                0x00004b2c       0x4a system/Clock.o
+                0x00004b2c                _ZN8ns_clock13ClockBuffReadEv
  .text._ZN8ns_clock11RefreshTimeEv
-                0x000044da       0xe8 system/Clock.o
-                0x000044da                _ZN8ns_clock11RefreshTimeEv
+                0x00004b76       0xe8 system/Clock.o
+                0x00004b76                _ZN8ns_clock11RefreshTimeEv
  .text._ZN8ns_clock6RefSavEv
-                0x000045c2       0x1e system/Clock.o
-                0x000045c2                _ZN8ns_clock6RefSavEv
+                0x00004c5e       0x1e system/Clock.o
+                0x00004c5e                _ZN8ns_clock6RefSavEv
  .text._ZN8ns_clock7SetYearEh
-                0x000045e0       0x2a system/Clock.o
-                0x000045e0                _ZN8ns_clock7SetYearEh
+                0x00004c7c       0x2a system/Clock.o
+                0x00004c7c                _ZN8ns_clock7SetYearEh
  .text._ZN8ns_clock8SetMonthEh
-                0x0000460a       0x2a system/Clock.o
-                0x0000460a                _ZN8ns_clock8SetMonthEh
+                0x00004ca6       0x2a system/Clock.o
+                0x00004ca6                _ZN8ns_clock8SetMonthEh
  .text._ZN8ns_clock7SetDateEh
-                0x00004634       0x2a system/Clock.o
-                0x00004634                _ZN8ns_clock7SetDateEh
+                0x00004cd0       0x2a system/Clock.o
+                0x00004cd0                _ZN8ns_clock7SetDateEh
  .text._ZN8ns_clock7SetHourEh
-                0x0000465e       0x2a system/Clock.o
-                0x0000465e                _ZN8ns_clock7SetHourEh
+                0x00004cfa       0x2a system/Clock.o
+                0x00004cfa                _ZN8ns_clock7SetHourEh
  .text._ZN8ns_clock9SetMinuteEh
-                0x00004688       0x2a system/Clock.o
-                0x00004688                _ZN8ns_clock9SetMinuteEh
+                0x00004d24       0x2a system/Clock.o
+                0x00004d24                _ZN8ns_clock9SetMinuteEh
  .text._ZN8ns_clock13SetZeroSecondEv
-                0x000046b2        0x6 system/Clock.o
-                0x000046b2                _ZN8ns_clock13SetZeroSecondEv
+                0x00004d4e        0x6 system/Clock.o
+                0x00004d4e                _ZN8ns_clock13SetZeroSecondEv
  .text._ZN8ns_clock6UpdateEv
-                0x000046b8        0x4 system/Clock.o
-                0x000046b8                _ZN8ns_clock6UpdateEv
+                0x00004d54        0x4 system/Clock.o
+                0x00004d54                _ZN8ns_clock6UpdateEv
  .text._ZN8ns_clock4InitEv
-                0x000046bc       0x3a system/Clock.o
-                0x000046bc                _ZN8ns_clock4InitEv
+                0x00004d58       0x3a system/Clock.o
+                0x00004d58                _ZN8ns_clock4InitEv
  .text._ZN8ns_clock9InterruptEv
-                0x000046f6       0x50 system/Clock.o
-                0x000046f6                _ZN8ns_clock9InterruptEv
+                0x00004d92       0x50 system/Clock.o
+                0x00004d92                _ZN8ns_clock9InterruptEv
  .text._ZN9ns_device4InitEv
-                0x00004746       0x60 system/Device.o
-                0x00004746                _ZN9ns_device4InitEv
+                0x00004de2       0x60 system/Device.o
+                0x00004de2                _ZN9ns_device4InitEv
  .text._ZN7tc_key4C2Ev
-                0x000047a6       0x9e system/key4.o
-                0x000047a6                _ZN7tc_key4C1Ev
-                0x000047a6                _ZN7tc_key4C2Ev
+                0x00004e42       0x9e system/key4.o
+                0x00004e42                _ZN7tc_key4C1Ev
+                0x00004e42                _ZN7tc_key4C2Ev
  .text._ZN7tc_key44NbitEh
-                0x00004844       0x26 system/key4.o
-                0x00004844                _ZN7tc_key44NbitEh
+                0x00004ee0       0x26 system/key4.o
+                0x00004ee0                _ZN7tc_key44NbitEh
  .text._ZN7tc_key44PushEh
-                0x0000486a       0x44 system/key4.o
-                0x0000486a                _ZN7tc_key44PushEh
+                0x00004f06       0x44 system/key4.o
+                0x00004f06                _ZN7tc_key44PushEh
  .text._ZN7tc_key46SelectEv
-                0x000048ae       0xca system/key4.o
-                0x000048ae                _ZN7tc_key46SelectEv
+                0x00004f4a       0xca system/key4.o
+                0x00004f4a                _ZN7tc_key46SelectEv
  .text._ZN7tc_key49InterruptEv
-                0x00004978      0x276 system/key4.o
-                0x00004978                _ZN7tc_key49InterruptEv
+                0x00005014      0x276 system/key4.o
+                0x00005014                _ZN7tc_key49InterruptEv
  .text._ZN7tc_key44ReadEPh
-                0x00004bee       0x5e system/key4.o
-                0x00004bee                _ZN7tc_key44ReadEPh
+                0x0000528a       0x5e system/key4.o
+                0x0000528a                _ZN7tc_key44ReadEPh
  .text._ZN6ns_lcd4SendEh
-                0x00004c4c       0x42 system/Lcd.o
-                0x00004c4c                _ZN6ns_lcd4SendEh
+                0x000052e8       0x42 system/Lcd.o
+                0x000052e8                _ZN6ns_lcd4SendEh
  .text._ZN6ns_lcd11SendCommandEh
-                0x00004c8e       0x1c system/Lcd.o
-                0x00004c8e                _ZN6ns_lcd11SendCommandEh
+                0x0000532a       0x1c system/Lcd.o
+                0x0000532a                _ZN6ns_lcd11SendCommandEh
  .text._ZN6ns_lcd8SendDataEh
-                0x00004caa       0x1c system/Lcd.o
-                0x00004caa                _ZN6ns_lcd8SendDataEh
+                0x00005346       0x1c system/Lcd.o
+                0x00005346                _ZN6ns_lcd8SendDataEh
  .text._ZN6ns_lcd5ClearEv
-                0x00004cc6       0x3e system/Lcd.o
-                0x00004cc6                _ZN6ns_lcd5ClearEv
+                0x00005362       0x3e system/Lcd.o
+                0x00005362                _ZN6ns_lcd5ClearEv
  .text._ZN6ns_lcd4InitEh
-                0x00004d04      0x126 system/Lcd.o
-                0x00004d04                _ZN6ns_lcd4InitEh
+                0x000053a0      0x126 system/Lcd.o
+                0x000053a0                _ZN6ns_lcd4InitEh
  .text._ZN6ns_lcd9InterruptEv
-                0x00004e2a       0xda system/Lcd.o
-                0x00004e2a                _ZN6ns_lcd9InterruptEv
+                0x000054c6       0xda system/Lcd.o
+                0x000054c6                _ZN6ns_lcd9InterruptEv
  .text._ZN6ns_lcd12NormalizePosEPh
-                0x00004f04       0x1a system/Lcd.o
-                0x00004f04                _ZN6ns_lcd12NormalizePosEPh
+                0x000055a0       0x1a system/Lcd.o
+                0x000055a0                _ZN6ns_lcd12NormalizePosEPh
  .text._ZN6ns_lcd11SetPositionEhh
-                0x00004f1e       0x26 system/Lcd.o
-                0x00004f1e                _ZN6ns_lcd11SetPositionEhh
+                0x000055ba       0x26 system/Lcd.o
+                0x000055ba                _ZN6ns_lcd11SetPositionEhh
  .text._ZN6ns_lcd7FlashFnEPhPVb
-                0x00004f44       0xa8 system/Lcd.o
-                0x00004f44                _ZN6ns_lcd7FlashFnEPhPVb
+                0x000055e0       0xa8 system/Lcd.o
+                0x000055e0                _ZN6ns_lcd7FlashFnEPhPVb
  .text._ZN6ns_lcd7PutCharEPhc
-                0x00004fec       0x32 system/Lcd.o
-                0x00004fec                _ZN6ns_lcd7PutCharEPhc
+                0x00005688       0x32 system/Lcd.o
+                0x00005688                _ZN6ns_lcd7PutCharEPhc
  .text._ZN6ns_lcd7putCharEcP6__file
-                0x0000501e        0xe system/Lcd.o
-                0x0000501e                _ZN6ns_lcd7putCharEcP6__file
+                0x000056ba        0xe system/Lcd.o
+                0x000056ba                _ZN6ns_lcd7putCharEcP6__file
  .text._ZN6ns_lcd7PutCharEhc
-                0x0000502c       0x1a system/Lcd.o
-                0x0000502c                _ZN6ns_lcd7PutCharEhc
+                0x000056c8       0x1a system/Lcd.o
+                0x000056c8                _ZN6ns_lcd7PutCharEhc
  .text._ZN6ns_lcd6StringEPhPKc
-                0x00005046       0x68 system/Lcd.o
-                0x00005046                _ZN6ns_lcd6StringEPhPKc
+                0x000056e2       0x68 system/Lcd.o
+                0x000056e2                _ZN6ns_lcd6StringEPhPKc
  .text._ZN6ns_lcd6StringEhPKc
-                0x000050ae       0x1a system/Lcd.o
-                0x000050ae                _ZN6ns_lcd6StringEhPKc
+                0x0000574a       0x1a system/Lcd.o
+                0x0000574a                _ZN6ns_lcd6StringEhPKc
  .text._ZN6ns_lcd8String_PEPhPKc
-                0x000050c8       0x6a system/Lcd.o
-                0x000050c8                _ZN6ns_lcd8String_PEPhPKc
+                0x00005764       0x6a system/Lcd.o
+                0x00005764                _ZN6ns_lcd8String_PEPhPKc
  .text._ZN6ns_lcd8String_PEhPKc
-                0x00005132       0x1a system/Lcd.o
-                0x00005132                _ZN6ns_lcd8String_PEhPKc
+                0x000057ce       0x1a system/Lcd.o
+                0x000057ce                _ZN6ns_lcd8String_PEhPKc
  .text._ZN6ns_lcd6DigitZEPhhl
-                0x0000514c       0xd6 system/Lcd.o
-                0x0000514c                _ZN6ns_lcd6DigitZEPhhl
+                0x000057e8       0xd6 system/Lcd.o
+                0x000057e8                _ZN6ns_lcd6DigitZEPhhl
  .text._ZN6ns_lcd6DigitZEhhl
-                0x00005222       0x1a system/Lcd.o
-                0x00005222                _ZN6ns_lcd6DigitZEhhl
+                0x000058be       0x1a system/Lcd.o
+                0x000058be                _ZN6ns_lcd6DigitZEhhl
  .text._ZN6ns_lcd5DigitEPhhl
-                0x0000523c      0x15e system/Lcd.o
-                0x0000523c                _ZN6ns_lcd5DigitEPhhl
+                0x000058d8      0x15e system/Lcd.o
+                0x000058d8                _ZN6ns_lcd5DigitEPhhl
  .text._GLOBAL__sub_I__ZN6ns_lcd10c_stolbcovE
-                0x0000539a        0xc system/Lcd.o
+                0x00005a36        0xc system/Lcd.o
  .text._ZN14ns_LcdKeyTimer4InitEv
-                0x000053a6      0x164 system/LcdKey_Timer.o
-                0x000053a6                _ZN14ns_LcdKeyTimer4InitEv
+                0x00005a42      0x164 system/LcdKey_Timer.o
+                0x00005a42                _ZN14ns_LcdKeyTimer4InitEv
  .text.__vector_15
-                0x0000550a       0x6c system/LcdKey_Timer.o
-                0x0000550a                __vector_15
- .text._Znwj    0x00005576        0x4 system/path.o
-                0x00005576                _Znwj
- .text._Znaj    0x0000557a        0x4 system/path.o
-                0x0000557a                _Znaj
+                0x00005ba6       0x6c system/LcdKey_Timer.o
+                0x00005ba6                __vector_15
+ .text._Znwj    0x00005c12        0x4 system/path.o
+                0x00005c12                _Znwj
+ .text._Znaj    0x00005c16        0x4 system/path.o
+                0x00005c16                _Znaj
  .text._ZN8ns_rs2324InitE6rsBaud8rsParity5rsBit12rsBufferSizeS3_
-                0x0000557e      0x124 system/rs232.o
-                0x0000557e                _ZN8ns_rs2324InitE6rsBaud8rsParity5rsBit12rsBufferSizeS3_
+                0x00005c1a      0x124 system/rs232.o
+                0x00005c1a                _ZN8ns_rs2324InitE6rsBaud8rsParity5rsBit12rsBufferSizeS3_
  .text.__vector_18
-                0x000056a2       0x58 system/rs232.o
-                0x000056a2                __vector_18
+                0x00005d3e       0x58 system/rs232.o
+                0x00005d3e                __vector_18
  .text.__vector_19
-                0x000056fa       0x62 system/rs232.o
-                0x000056fa                __vector_19
+                0x00005d96       0x62 system/rs232.o
+                0x00005d96                __vector_19
  .text._ZN8ns_rs2328SendByteEh
-                0x0000575c       0x3a system/rs232.o
-                0x0000575c                _ZN8ns_rs2328SendByteEh
+                0x00005df8       0x3a system/rs232.o
+                0x00005df8                _ZN8ns_rs2328SendByteEh
  .text._ZN8ns_rs2327putCharEcP6__file
-                0x00005796        0x8 system/rs232.o
-                0x00005796                _ZN8ns_rs2327putCharEcP6__file
+                0x00005e32        0x8 system/rs232.o
+                0x00005e32                _ZN8ns_rs2327putCharEcP6__file
  .text._ZN8ns_rs2326StringEPKc
-                0x0000579e       0x1c system/rs232.o
-                0x0000579e                _ZN8ns_rs2326StringEPKc
+                0x00005e3a       0x1c system/rs232.o
+                0x00005e3a                _ZN8ns_rs2326StringEPKc
  .text._ZN8ns_rs2328String_PEPKc
-                0x000057ba       0x20 system/rs232.o
-                0x000057ba                _ZN8ns_rs2328String_PEPKc
+                0x00005e56       0x20 system/rs232.o
+                0x00005e56                _ZN8ns_rs2328String_PEPKc
  .text._ZN8ns_rs2326DigitZEhl
-                0x000057da       0xc0 system/rs232.o
-                0x000057da                _ZN8ns_rs2326DigitZEhl
+                0x00005e76       0xc0 system/rs232.o
+                0x00005e76                _ZN8ns_rs2326DigitZEhl
  .text._ZN12ns_timerMain4InitEv
-                0x0000589a       0x4c system/timer2.o
-                0x0000589a                _ZN12ns_timerMain4InitEv
+                0x00005f36       0x4c system/timer2.o
+                0x00005f36                _ZN12ns_timerMain4InitEv
  .text.__vector_9
-                0x000058e6       0x50 system/timer2.o
-                0x000058e6                __vector_9
+                0x00005f82       0x50 system/timer2.o
+                0x00005f82                __vector_9
  .text._ZN11ns_watchdog7enabledEv
-                0x00005936       0x12 watchdog.o
-                0x00005936                _ZN11ns_watchdog7enabledEv
+                0x00005fd2       0x12 watchdog.o
+                0x00005fd2                _ZN11ns_watchdog7enabledEv
  .text._ZN11ns_watchdog5resetEv
-                0x00005948        0x4 watchdog.o
-                0x00005948                _ZN11ns_watchdog5resetEv
+                0x00005fe4        0x4 watchdog.o
+                0x00005fe4                _ZN11ns_watchdog5resetEv
  .text.libgcc.div
-                0x0000594c       0x18 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodqi4.o)
-                0x0000594c                __udivmodqi4
+                0x00005fe8       0x18 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodqi4.o)
+                0x00005fe8                __udivmodqi4
  .text.libgcc.div
-                0x00005964       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodsi4.o)
-                0x00005964                __udivmodsi4
+                0x00006000       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmodsi4.o)
+                0x00006000                __udivmodsi4
  .text.libgcc.div
-                0x000059a8       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_divmodsi4.o)
-                0x000059a8                __divmodsi4
+                0x00006044       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_divmodsi4.o)
+                0x00006044                __divmodsi4
  .text.libgcc.div
-                0x000059d0       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_negsi2.o)
-                0x000059d0                __negsi2
+                0x0000606c       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_negsi2.o)
+                0x0000606c                __negsi2
  .text.libgcc.mul
-                0x000059e0       0x1e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
-                0x000059e0                __umulhisi3
+                0x0000607c       0x1e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_umulhisi3.o)
+                0x0000607c                __umulhisi3
  .text.libgcc.mul
-                0x000059fe       0x92 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_muldi3.o)
-                0x000059fe                __muldi3
+                0x0000609a       0x92 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_muldi3.o)
+                0x0000609a                __muldi3
  .text.libgcc.mul
-                0x00005a90       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_muldi3_6.o)
-                0x00005a90                __muldi3_6
+                0x0000612c       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_muldi3_6.o)
+                0x0000612c                __muldi3_6
  .text.libgcc.div
-                0x00005aa0       0x1a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivdi3.o)
-                0x00005aa0                __umoddi3
-                0x00005aa4                __udivdi3
-                0x00005aa6                __udivdi3_umoddi3
+                0x0000613c       0x1a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivdi3.o)
+                0x0000613c                __umoddi3
+                0x00006140                __udivdi3
+                0x00006142                __udivdi3_umoddi3
  .text.libgcc.div
-                0x00005aba       0xa2 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmod64.o)
-                0x00005aba                __udivmod64
+                0x00006156       0xa2 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_udivmod64.o)
+                0x00006156                __udivmod64
  .text.libgcc.builtins
-                0x00005b5c       0x32 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_ashldi3.o)
-                0x00005b5c                __ashldi3
- .text.libgcc   0x00005b8e       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_adddi3.o)
-                0x00005b8e                __adddi3
- .text.libgcc   0x00005ba0       0x18 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_adddi3_s8.o)
-                0x00005ba0                __adddi3_s8
- .text.libgcc   0x00005bb8       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
-                0x00005bb8                __tablejump2__
+                0x000061f8       0x32 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_ashldi3.o)
+                0x000061f8                __ashldi3
+ .text.libgcc   0x0000622a       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_adddi3.o)
+                0x0000622a                __adddi3
+ .text.libgcc   0x0000623c       0x18 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_adddi3_s8.o)
+                0x0000623c                __adddi3_s8
+ .text.libgcc   0x00006254       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_tablejump2.o)
+                0x00006254                __tablejump2__
  .text.avr-libc
-                0x00005bca      0x25a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(malloc.o)
-                0x00005bca                malloc
-                0x00005cf4                free
+                0x00006266      0x25a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(malloc.o)
+                0x00006266                malloc
+                0x00006390                free
  .text.avr-libc
-                0x00005e24       0x94 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fdevopen.o)
-                0x00005e24                fdevopen
+                0x000064c0       0x94 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(fdevopen.o)
+                0x000064c0                fdevopen
  .text.avr-libc
-                0x00005eb8       0x34 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(calloc.o)
-                0x00005eb8                calloc
+                0x00006554       0x34 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(calloc.o)
+                0x00006554                calloc
  .text.avr-libc
-                0x00005eec        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(memset.o)
-                0x00005eec                memset
+                0x00006588        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(memset.o)
+                0x00006588                memset
  .text.avr-libc
-                0x00005efa       0x20 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eerd_block.o)
-                0x00005efa                eeprom_read_block
-                0x00005efe                eeprom_read_blraw
+                0x00006596       0x20 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eerd_block.o)
+                0x00006596                eeprom_read_block
+                0x0000659a                eeprom_read_blraw
  .text.avr-libc
-                0x00005f1a       0x10 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eerd_byte.o)
-                0x00005f1a                eeprom_read_byte
+                0x000065b6       0x10 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eerd_byte.o)
+                0x000065b6                eeprom_read_byte
  .text.avr-libc
-                0x00005f2a        0xa C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eerd_word.o)
-                0x00005f2a                eeprom_read_word
+                0x000065c6        0xa C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eerd_word.o)
+                0x000065c6                eeprom_read_word
  .text.avr-libc
-                0x00005f34       0x22 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eeupd_byte.o)
-                0x00005f34                eeprom_update_byte
-                0x00005f36                eeprom_update_r18
+                0x000065d0       0x22 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eeupd_byte.o)
+                0x000065d0                eeprom_update_byte
+                0x000065d2                eeprom_update_r18
  .text.avr-libc
-                0x00005f56        0x8 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eeupd_word.o)
-                0x00005f56                eeprom_update_word
+                0x000065f2        0x8 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eeupd_word.o)
+                0x000065f2                eeprom_update_word
  .text.avr-libc
-                0x00005f5e       0x12 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eewr_block.o)
-                0x00005f5e                eeprom_write_block
+                0x000065fa       0x12 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eewr_block.o)
+                0x000065fa                eeprom_write_block
  .text.avr-libc
-                0x00005f70       0x1a C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eewr_byte.o)
-                0x00005f70                eeprom_write_byte
-                0x00005f72                eeprom_write_r18
+                0x0000660c       0x1a C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eewr_byte.o)
+                0x0000660c                eeprom_write_byte
+                0x0000660e                eeprom_write_r18
  .text.avr-libc
-                0x00005f8a        0x6 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eewr_word.o)
-                0x00005f8a                eeprom_write_word
-                0x00005f90                . = ALIGN (0x2)
+                0x00006626        0x6 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eewr_word.o)
+                0x00006626                eeprom_write_word
+                0x0000662c                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00005f90        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
-                0x00005f90                _exit
-                0x00005f90                exit
+ .fini9         0x0000662c        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+                0x0000662c                _exit
+                0x0000662c                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -1403,11 +1458,11 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00005f90        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
+ .fini0         0x0000662c        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/avr51\libgcc.a(_exit.o)
  *(.fini0)
-                0x00005f94                _etext = .
+                0x00006630                _etext = .
 
-.data           0x00800100       0x3a load address 0x00005f94
+.data           0x00800100       0x3a load address 0x00006630
                 0x00800100                PROVIDE (__data_start, .)
  *(.data)
  .data          0x00800100        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(malloc.o)
@@ -1448,7 +1503,7 @@ END GROUP
                 0x0080013a                _edata = .
                 0x0080013a                PROVIDE (__data_end, .)
 
-.bss            0x0080013a       0xd1
+.bss            0x0080013a       0xd9
                 0x0080013a                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
@@ -1482,179 +1537,191 @@ END GROUP
  .bss._ZN7ns_line7sensorsE
                 0x0080017f        0xa line.o
                 0x0080017f                _ZN7ns_line7sensorsE
- .bss._ZN7ns_menu8corSpeedE
+ .bss._ZN7ns_menu10sq2OnOffFlE
                 0x00800189        0x1 menu.o
-                0x00800189                _ZN7ns_menu8corSpeedE
+                0x00800189                _ZN7ns_menu10sq2OnOffFlE
+ .bss._ZN7ns_menu6calBasE
+                0x0080018a        0x4 menu.o
+                0x0080018a                _ZN7ns_menu6calBasE
+ .bss._ZN7ns_menu6calSqXE
+                0x0080018e        0x1 menu.o
+                0x0080018e                _ZN7ns_menu6calSqXE
+ .bss._ZN7ns_menu5calSqE
+                0x0080018f        0x2 menu.o
+                0x0080018f                _ZN7ns_menu5calSqE
+ .bss._ZN7ns_menu8corSpeedE
+                0x00800191        0x1 menu.o
+                0x00800191                _ZN7ns_menu8corSpeedE
  .bss._ZN7ns_menu10tmIntegralE
-                0x0080018a        0x2 menu.o
-                0x0080018a                _ZN7ns_menu10tmIntegralE
+                0x00800192        0x2 menu.o
+                0x00800192                _ZN7ns_menu10tmIntegralE
  .bss._ZN7ns_menu11tmpIntervalE
-                0x0080018c        0x2 menu.o
-                0x0080018c                _ZN7ns_menu11tmpIntervalE
+                0x00800194        0x2 menu.o
+                0x00800194                _ZN7ns_menu11tmpIntervalE
  .bss._ZN7ns_menu15corCurTube_baseE
-                0x0080018e        0x2 menu.o
-                0x0080018e                _ZN7ns_menu15corCurTube_baseE
+                0x00800196        0x2 menu.o
+                0x00800196                _ZN7ns_menu15corCurTube_baseE
  .bss._ZN7ns_menu16corCurTube_dlinaE
-                0x00800190        0x2 menu.o
-                0x00800190                _ZN7ns_menu16corCurTube_dlinaE
+                0x00800198        0x2 menu.o
+                0x00800198                _ZN7ns_menu16corCurTube_dlinaE
  .bss._ZN7ns_menu12corCurTube_lE
-                0x00800192        0x1 menu.o
-                0x00800192                _ZN7ns_menu12corCurTube_lE
+                0x0080019a        0x1 menu.o
+                0x0080019a                _ZN7ns_menu12corCurTube_lE
  .bss._ZN7ns_menu9viewarc_nE
-                0x00800193        0x2 menu.o
-                0x00800193                _ZN7ns_menu9viewarc_nE
+                0x0080019b        0x2 menu.o
+                0x0080019b                _ZN7ns_menu9viewarc_nE
  .bss._ZN7ns_menu11viewarc_idxE
-                0x00800195        0x2 menu.o
-                0x00800195                _ZN7ns_menu11viewarc_idxE
+                0x0080019d        0x2 menu.o
+                0x0080019d                _ZN7ns_menu11viewarc_idxE
  .bss._ZN7ns_menu14corCurTube_idxE
-                0x00800197        0x2 menu.o
-                0x00800197                _ZN7ns_menu14corCurTube_idxE
+                0x0080019f        0x2 menu.o
+                0x0080019f                _ZN7ns_menu14corCurTube_idxE
  .bss._ZN7ns_menu15corCurTube_cellE
-                0x00800199        0xb menu.o
-                0x00800199                _ZN7ns_menu15corCurTube_cellE
+                0x008001a1        0xb menu.o
+                0x008001a1                _ZN7ns_menu15corCurTube_cellE
  .bss._ZN7ns_menu13setTime_timeNE
-                0x008001a4        0x1 menu.o
-                0x008001a4                _ZN7ns_menu13setTime_timeNE
+                0x008001ac        0x1 menu.o
+                0x008001ac                _ZN7ns_menu13setTime_timeNE
  .bss._ZN7ns_menu12setTime_timeE
-                0x008001a5        0x7 menu.o
-                0x008001a5                _ZN7ns_menu12setTime_timeE
+                0x008001ad        0x7 menu.o
+                0x008001ad                _ZN7ns_menu12setTime_timeE
  .bss._ZN7ns_menu11tmpDistanceE
-                0x008001ac        0x2 menu.o
-                0x008001ac                _ZN7ns_menu11tmpDistanceE
+                0x008001b4        0x2 menu.o
+                0x008001b4                _ZN7ns_menu11tmpDistanceE
  .bss._ZN7ns_menu10curSensIdxE
-                0x008001ae        0x1 menu.o
-                0x008001ae                _ZN7ns_menu10curSensIdxE
- .bss._ZN7ns_menu9curSensorE
-                0x008001af        0x1 menu.o
-                0x008001af                _ZN7ns_menu9curSensorE
- .bss._ZN7ns_menu6inPassE
-                0x008001b0        0x5 menu.o
-                0x008001b0                _ZN7ns_menu6inPassE
- .bss._ZN7ns_menu10curPosPassE
-                0x008001b5        0x1 menu.o
-                0x008001b5                _ZN7ns_menu10curPosPassE
- .bss._ZN7ns_menu7varPos1E
                 0x008001b6        0x1 menu.o
-                0x008001b6                _ZN7ns_menu7varPos1E
+                0x008001b6                _ZN7ns_menu10curSensIdxE
+ .bss._ZN7ns_menu9curSensorE
+                0x008001b7        0x1 menu.o
+                0x008001b7                _ZN7ns_menu9curSensorE
+ .bss._ZN7ns_menu6inPassE
+                0x008001b8        0x5 menu.o
+                0x008001b8                _ZN7ns_menu6inPassE
+ .bss._ZN7ns_menu10curPosPassE
+                0x008001bd        0x1 menu.o
+                0x008001bd                _ZN7ns_menu10curPosPassE
+ .bss._ZN7ns_menu7varPos1E
+                0x008001be        0x1 menu.o
+                0x008001be                _ZN7ns_menu7varPos1E
  .bss._ZN7ns_menu7timeOutE
-                0x008001b7        0x4 menu.o
-                0x008001b7                _ZN7ns_menu7timeOutE
+                0x008001bf        0x4 menu.o
+                0x008001bf                _ZN7ns_menu7timeOutE
  .bss._ZN7ns_menu4modeE
-                0x008001bb        0x1 menu.o
-                0x008001bb                _ZN7ns_menu4modeE
+                0x008001c3        0x1 menu.o
+                0x008001c3                _ZN7ns_menu4modeE
  .bss._ZN8ns_clock3tikE
-                0x008001bc        0x1 system/Clock.o
-                0x008001bc                _ZN8ns_clock3tikE
+                0x008001c4        0x1 system/Clock.o
+                0x008001c4                _ZN8ns_clock3tikE
  .bss._ZN8ns_clock6tik_cnE
-                0x008001bd        0x1 system/Clock.o
-                0x008001bd                _ZN8ns_clock6tik_cnE
+                0x008001c5        0x1 system/Clock.o
+                0x008001c5                _ZN8ns_clock6tik_cnE
  .bss._ZN8ns_clock11clock_datasE
-                0x008001be        0x8 system/Clock.o
-                0x008001be                _ZN8ns_clock11clock_datasE
+                0x008001c6        0x8 system/Clock.o
+                0x008001c6                _ZN8ns_clock11clock_datasE
  .bss._ZN8ns_clock4timeE
-                0x008001c6        0x7 system/Clock.o
-                0x008001c6                _ZN8ns_clock4timeE
+                0x008001ce        0x7 system/Clock.o
+                0x008001ce                _ZN8ns_clock4timeE
  .bss._ZN8ns_clock10clock_dataE
-                0x008001cd        0x8 system/Clock.o
-                0x008001cd                _ZN8ns_clock10clock_dataE
+                0x008001d5        0x8 system/Clock.o
+                0x008001d5                _ZN8ns_clock10clock_dataE
  .bss._ZN8ns_clock9level_sdaE
-                0x008001d5        0x1 system/Clock.o
-                0x008001d5                _ZN8ns_clock9level_sdaE
- .bss.key4      0x008001d6        0x2 system/Device.o
-                0x008001d6                key4
+                0x008001dd        0x1 system/Clock.o
+                0x008001dd                _ZN8ns_clock9level_sdaE
+ .bss.key4      0x008001de        0x2 system/Device.o
+                0x008001de                key4
  .bss.rs232StdOut
-                0x008001d8        0x2 system/Device.o
-                0x008001d8                rs232StdOut
+                0x008001e0        0x2 system/Device.o
+                0x008001e0                rs232StdOut
  .bss.lcdStdOut
-                0x008001da        0x2 system/Device.o
-                0x008001da                lcdStdOut
+                0x008001e2        0x2 system/Device.o
+                0x008001e2                lcdStdOut
  .bss._ZN6ns_lcd7flickerE
-                0x008001dc        0x1 system/Lcd.o
-                0x008001dc                _ZN6ns_lcd7flickerE
+                0x008001e4        0x1 system/Lcd.o
+                0x008001e4                _ZN6ns_lcd7flickerE
  .bss._ZN6ns_lcd11indxRefreshE
-                0x008001dd        0x1 system/Lcd.o
-                0x008001dd                _ZN6ns_lcd11indxRefreshE
+                0x008001e5        0x1 system/Lcd.o
+                0x008001e5                _ZN6ns_lcd11indxRefreshE
  .bss._ZN6ns_lcd13scrFlashCountE
-                0x008001de        0x2 system/Lcd.o
-                0x008001de                _ZN6ns_lcd13scrFlashCountE
+                0x008001e6        0x2 system/Lcd.o
+                0x008001e6                _ZN6ns_lcd13scrFlashCountE
  .bss._ZN6ns_lcd3posE
-                0x008001e0        0x1 system/Lcd.o
-                0x008001e0                _ZN6ns_lcd3posE
+                0x008001e8        0x1 system/Lcd.o
+                0x008001e8                _ZN6ns_lcd3posE
  .bss._ZN6ns_lcd11ptrScrFlashE
-                0x008001e1        0x2 system/Lcd.o
-                0x008001e1                _ZN6ns_lcd11ptrScrFlashE
+                0x008001e9        0x2 system/Lcd.o
+                0x008001e9                _ZN6ns_lcd11ptrScrFlashE
  .bss._ZN6ns_lcd8scrFlashE
-                0x008001e3        0x8 system/Lcd.o
-                0x008001e3                _ZN6ns_lcd8scrFlashE
+                0x008001eb        0x8 system/Lcd.o
+                0x008001eb                _ZN6ns_lcd8scrFlashE
  .bss._ZN6ns_lcd6screenE
-                0x008001eb        0x2 system/Lcd.o
-                0x008001eb                _ZN6ns_lcd6screenE
+                0x008001f3        0x2 system/Lcd.o
+                0x008001f3                _ZN6ns_lcd6screenE
  .bss._ZN6ns_lcd6maxPosE
-                0x008001ed        0x1 system/Lcd.o
-                0x008001ed                _ZN6ns_lcd6maxPosE
+                0x008001f5        0x1 system/Lcd.o
+                0x008001f5                _ZN6ns_lcd6maxPosE
  .bss._ZN8ns_rs2323bitE
-                0x008001ee        0x1 system/rs232.o
-                0x008001ee                _ZN8ns_rs2323bitE
+                0x008001f6        0x1 system/rs232.o
+                0x008001f6                _ZN8ns_rs2323bitE
  .bss._ZN8ns_rs2326TxTailE
-                0x008001ef        0x1 system/rs232.o
-                0x008001ef                _ZN8ns_rs2326TxTailE
- .bss._ZN8ns_rs2326TxHeadE
-                0x008001f0        0x1 system/rs232.o
-                0x008001f0                _ZN8ns_rs2326TxHeadE
- .bss._ZN8ns_rs2325TxBufE
-                0x008001f1        0x2 system/rs232.o
-                0x008001f1                _ZN8ns_rs2325TxBufE
- .bss._ZN8ns_rs2326RxTailE
-                0x008001f3        0x1 system/rs232.o
-                0x008001f3                _ZN8ns_rs2326RxTailE
- .bss._ZN8ns_rs2326RxHeadE
-                0x008001f4        0x1 system/rs232.o
-                0x008001f4                _ZN8ns_rs2326RxHeadE
- .bss._ZN8ns_rs2325RxBufE
-                0x008001f5        0x2 system/rs232.o
-                0x008001f5                _ZN8ns_rs2325RxBufE
- .bss._ZN8ns_rs2329txBufMaskE
                 0x008001f7        0x1 system/rs232.o
-                0x008001f7                _ZN8ns_rs2329txBufMaskE
- .bss._ZN8ns_rs2329rxBufMaskE
+                0x008001f7                _ZN8ns_rs2326TxTailE
+ .bss._ZN8ns_rs2326TxHeadE
                 0x008001f8        0x1 system/rs232.o
-                0x008001f8                _ZN8ns_rs2329rxBufMaskE
+                0x008001f8                _ZN8ns_rs2326TxHeadE
+ .bss._ZN8ns_rs2325TxBufE
+                0x008001f9        0x2 system/rs232.o
+                0x008001f9                _ZN8ns_rs2325TxBufE
+ .bss._ZN8ns_rs2326RxTailE
+                0x008001fb        0x1 system/rs232.o
+                0x008001fb                _ZN8ns_rs2326RxTailE
+ .bss._ZN8ns_rs2326RxHeadE
+                0x008001fc        0x1 system/rs232.o
+                0x008001fc                _ZN8ns_rs2326RxHeadE
+ .bss._ZN8ns_rs2325RxBufE
+                0x008001fd        0x2 system/rs232.o
+                0x008001fd                _ZN8ns_rs2325RxBufE
+ .bss._ZN8ns_rs2329txBufMaskE
+                0x008001ff        0x1 system/rs232.o
+                0x008001ff                _ZN8ns_rs2329txBufMaskE
+ .bss._ZN8ns_rs2329rxBufMaskE
+                0x00800200        0x1 system/rs232.o
+                0x00800200                _ZN8ns_rs2329rxBufMaskE
  .bss._ZN5ns_vg3exNE
-                0x008001f9        0x1 vg.o
-                0x008001f9                _ZN5ns_vg3exNE
+                0x00800201        0x1 vg.o
+                0x00800201                _ZN5ns_vg3exNE
  .bss._ZN5ns_vg5sqBasE
-                0x008001fa        0x1 vg.o
-                0x008001fa                _ZN5ns_vg5sqBasE
+                0x00800202        0x1 vg.o
+                0x00800202                _ZN5ns_vg5sqBasE
  .bss._ZN5ns_vg11lenTubuStatE
-                0x008001fb        0x1 vg.o
-                0x008001fb                _ZN5ns_vg11lenTubuStatE
+                0x00800203        0x1 vg.o
+                0x00800203                _ZN5ns_vg11lenTubuStatE
  .bss._ZN5ns_vg10lenTubeNewE
-                0x008001fc        0x1 vg.o
-                0x008001fc                _ZN5ns_vg10lenTubeNewE
+                0x00800204        0x1 vg.o
+                0x00800204                _ZN5ns_vg10lenTubeNewE
  .bss._ZN5ns_vg10lenTubuExlE
-                0x008001fd        0x2 vg.o
-                0x008001fd                _ZN5ns_vg10lenTubuExlE
+                0x00800205        0x2 vg.o
+                0x00800205                _ZN5ns_vg10lenTubuExlE
  .bss._ZN5ns_vg5nTubeE
-                0x008001ff        0x2 vg.o
-                0x008001ff                _ZN5ns_vg5nTubeE
+                0x00800207        0x2 vg.o
+                0x00800207                _ZN5ns_vg5nTubeE
  *(COMMON)
- COMMON         0x00800201        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(malloc.o)
-                0x00800201                __brkval
-                0x00800203                __flp
- COMMON         0x00800205        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(iob.o)
-                0x00800205                __iob
-                0x0080020b                PROVIDE (__bss_end, .)
-                0x00005f94                __data_load_start = LOADADDR (.data)
-                0x00005fce                __data_load_end = (__data_load_start + SIZEOF (.data))
+ COMMON         0x00800209        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(malloc.o)
+                0x00800209                __brkval
+                0x0080020b                __flp
+ COMMON         0x0080020d        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.9.2/../../../../avr/lib/avr51\libc.a(iob.o)
+                0x0080020d                __iob
+                0x00800213                PROVIDE (__bss_end, .)
+                0x00006630                __data_load_start = LOADADDR (.data)
+                0x0000666a                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x0080020b        0x0
+.noinit         0x00800213        0x0
                 [!provide]                PROVIDE (__noinit_start, .)
  *(.noinit*)
                 [!provide]                PROVIDE (__noinit_end, .)
-                0x0080020b                _end = .
-                0x0080020b                PROVIDE (__heap_start, .)
+                0x00800213                _end = .
+                0x00800213                PROVIDE (__heap_start, .)
 
-.eeprom         0x00810000      0xcfc
+.eeprom         0x00810000      0xcfd
  *(.eeprom*)
  .eeprom        0x00810000      0xce8 Archive.o
                 0x00810000                _ZN10ns_archive5lenEEE
@@ -1662,12 +1729,13 @@ END GROUP
                 0x00810004                _ZN10ns_archive7archiveE
  .eeprom        0x00810ce8        0x5 menu.o
                 0x00810ce8                _ZN7ns_menu6eePassE
- .eeprom        0x00810ced        0xf vg.o
-                0x00810ced                _ZN5ns_vg10eeCorSpeedE
-                0x00810cee                _ZN5ns_vg9eeInteralE
-                0x00810cf0                _ZN5ns_vg9eeProtectE
-                0x00810cf2                _ZN5ns_vg10eeDistanceE
-                0x00810cfc                __eeprom_end = .
+ .eeprom        0x00810ced       0x10 vg.o
+                0x00810ced                _ZN5ns_vg7eeFlSq2E
+                0x00810cee                _ZN5ns_vg10eeCorSpeedE
+                0x00810cef                _ZN5ns_vg9eeInteralE
+                0x00810cf1                _ZN5ns_vg9eeProtectE
+                0x00810cf3                _ZN5ns_vg10eeDistanceE
+                0x00810cfd                __eeprom_end = .
 
 .fuse
  *(.fuse)
@@ -1745,7 +1813,7 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000      0x828
+.debug_aranges  0x00000000      0x898
  *(.debug_aranges)
  .debug_aranges
                 0x00000000       0x48 Archive.o
@@ -1754,75 +1822,75 @@ END GROUP
  .debug_aranges
                 0x00000080       0x20 main.o
  .debug_aranges
-                0x000000a0      0x2d0 menu.o
+                0x000000a0      0x340 menu.o
  .debug_aranges
-                0x00000370       0x38 Module.o
+                0x000003e0       0x38 Module.o
  .debug_aranges
-                0x000003a8       0xc8 system/Clock.o
+                0x00000418       0xc8 system/Clock.o
  .debug_aranges
-                0x00000470       0x20 system/Device.o
+                0x000004e0       0x20 system/Device.o
  .debug_aranges
-                0x00000490       0x60 system/key4.o
+                0x00000500       0x60 system/key4.o
  .debug_aranges
-                0x000004f0       0xe0 system/Lcd.o
+                0x00000560       0xe0 system/Lcd.o
  .debug_aranges
-                0x000005d0       0x28 system/LcdKey_Timer.o
+                0x00000640       0x28 system/LcdKey_Timer.o
  .debug_aranges
-                0x000005f8       0x38 system/path.o
+                0x00000668       0x38 system/path.o
  .debug_aranges
-                0x00000630       0x88 system/rs232.o
+                0x000006a0       0x88 system/rs232.o
  .debug_aranges
-                0x000006b8       0x28 system/timer2.o
+                0x00000728       0x28 system/timer2.o
  .debug_aranges
-                0x000006e0       0x18 vg.o
+                0x00000750       0x18 vg.o
  .debug_aranges
-                0x000006f8       0x30 watchdog.o
+                0x00000768       0x30 watchdog.o
  .debug_aranges
-                0x00000728       0x20 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eerd_block.o)
+                0x00000798       0x20 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eerd_block.o)
  .debug_aranges
-                0x00000748       0x20 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eerd_byte.o)
+                0x000007b8       0x20 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eerd_byte.o)
  .debug_aranges
-                0x00000768       0x20 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eerd_word.o)
+                0x000007d8       0x20 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eerd_word.o)
  .debug_aranges
-                0x00000788       0x20 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eeupd_byte.o)
+                0x000007f8       0x20 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eeupd_byte.o)
  .debug_aranges
-                0x000007a8       0x20 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eeupd_word.o)
+                0x00000818       0x20 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eeupd_word.o)
  .debug_aranges
-                0x000007c8       0x20 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eewr_block.o)
+                0x00000838       0x20 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eewr_block.o)
  .debug_aranges
-                0x000007e8       0x20 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eewr_byte.o)
+                0x00000858       0x20 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eewr_byte.o)
  .debug_aranges
-                0x00000808       0x20 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eewr_word.o)
+                0x00000878       0x20 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eewr_word.o)
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0xcac3
+.debug_info     0x00000000     0xd7f1
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x780 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51/crtatmega128.o
  .debug_info    0x00000780      0x856 Archive.o
- .debug_info    0x00000fd6     0x10b8 line.o
- .debug_info    0x0000208e      0x466 main.o
- .debug_info    0x000024f4     0x572f menu.o
- .debug_info    0x00007c23      0x1f9 Module.o
- .debug_info    0x00007e1c      0xa17 system/Clock.o
- .debug_info    0x00008833      0x64b system/Device.o
- .debug_info    0x00008e7e      0xc27 system/key4.o
- .debug_info    0x00009aa5     0x135c system/Lcd.o
- .debug_info    0x0000ae01      0x473 system/LcdKey_Timer.o
- .debug_info    0x0000b274      0x1df system/path.o
- .debug_info    0x0000b453      0xbfe system/rs232.o
- .debug_info    0x0000c051      0x1c1 system/timer2.o
- .debug_info    0x0000c212      0x1f2 vg.o
- .debug_info    0x0000c404      0x15b watchdog.o
- .debug_info    0x0000c55f       0xad C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eerd_block.o)
- .debug_info    0x0000c60c       0xac C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eerd_byte.o)
- .debug_info    0x0000c6b8       0xac C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eerd_word.o)
- .debug_info    0x0000c764       0xad C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eeupd_byte.o)
- .debug_info    0x0000c811       0xad C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eeupd_word.o)
- .debug_info    0x0000c8be       0xad C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eewr_block.o)
- .debug_info    0x0000c96b       0xac C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eewr_byte.o)
- .debug_info    0x0000ca17       0xac C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eewr_word.o)
+ .debug_info    0x00000fd6     0x10fe line.o
+ .debug_info    0x000020d4      0x466 main.o
+ .debug_info    0x0000253a     0x63fb menu.o
+ .debug_info    0x00008935      0x1f9 Module.o
+ .debug_info    0x00008b2e      0xa17 system/Clock.o
+ .debug_info    0x00009545      0x64b system/Device.o
+ .debug_info    0x00009b90      0xc27 system/key4.o
+ .debug_info    0x0000a7b7     0x135c system/Lcd.o
+ .debug_info    0x0000bb13      0x473 system/LcdKey_Timer.o
+ .debug_info    0x0000bf86      0x1df system/path.o
+ .debug_info    0x0000c165      0xbfe system/rs232.o
+ .debug_info    0x0000cd63      0x1c1 system/timer2.o
+ .debug_info    0x0000cf24      0x20e vg.o
+ .debug_info    0x0000d132      0x15b watchdog.o
+ .debug_info    0x0000d28d       0xad C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eerd_block.o)
+ .debug_info    0x0000d33a       0xac C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eerd_byte.o)
+ .debug_info    0x0000d3e6       0xac C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eerd_word.o)
+ .debug_info    0x0000d492       0xad C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eeupd_byte.o)
+ .debug_info    0x0000d53f       0xad C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eeupd_word.o)
+ .debug_info    0x0000d5ec       0xad C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eewr_block.o)
+ .debug_info    0x0000d699       0xac C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eewr_byte.o)
+ .debug_info    0x0000d745       0xac C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eewr_word.o)
 
 .debug_abbrev   0x00000000     0x2a23
  *(.debug_abbrev)
@@ -1851,98 +1919,98 @@ END GROUP
  .debug_abbrev  0x000029fb       0x14 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eewr_byte.o)
  .debug_abbrev  0x00002a0f       0x14 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eewr_word.o)
 
-.debug_line     0x00000000     0x5dc9
+.debug_line     0x00000000     0x62d4
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x00000000      0x169 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51/crtatmega128.o
  .debug_line    0x00000169      0x48d Archive.o
- .debug_line    0x000005f6      0xb7e line.o
- .debug_line    0x00001174      0x243 main.o
- .debug_line    0x000013b7     0x21b2 menu.o
- .debug_line    0x00003569      0x120 Module.o
- .debug_line    0x00003689      0x5d8 system/Clock.o
- .debug_line    0x00003c61      0x1a6 system/Device.o
- .debug_line    0x00003e07      0x6be system/key4.o
- .debug_line    0x000044c5      0x802 system/Lcd.o
- .debug_line    0x00004cc7      0x26a system/LcdKey_Timer.o
- .debug_line    0x00004f31      0x166 system/path.o
- .debug_line    0x00005097      0x600 system/rs232.o
- .debug_line    0x00005697      0x144 system/timer2.o
- .debug_line    0x000057db       0x93 vg.o
- .debug_line    0x0000586e      0x14a watchdog.o
- .debug_line    0x000059b8       0xab C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eerd_block.o)
- .debug_line    0x00005a63       0x7a C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eerd_byte.o)
- .debug_line    0x00005add       0x67 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eerd_word.o)
- .debug_line    0x00005b44       0xb0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eeupd_byte.o)
- .debug_line    0x00005bf4       0x62 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eeupd_word.o)
- .debug_line    0x00005c56       0x80 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eewr_block.o)
- .debug_line    0x00005cd6       0x98 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eewr_byte.o)
- .debug_line    0x00005d6e       0x5b C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eewr_word.o)
+ .debug_line    0x000005f6      0xb8a line.o
+ .debug_line    0x00001180      0x243 main.o
+ .debug_line    0x000013c3     0x26b1 menu.o
+ .debug_line    0x00003a74      0x120 Module.o
+ .debug_line    0x00003b94      0x5d8 system/Clock.o
+ .debug_line    0x0000416c      0x1a6 system/Device.o
+ .debug_line    0x00004312      0x6be system/key4.o
+ .debug_line    0x000049d0      0x802 system/Lcd.o
+ .debug_line    0x000051d2      0x26a system/LcdKey_Timer.o
+ .debug_line    0x0000543c      0x166 system/path.o
+ .debug_line    0x000055a2      0x600 system/rs232.o
+ .debug_line    0x00005ba2      0x144 system/timer2.o
+ .debug_line    0x00005ce6       0x93 vg.o
+ .debug_line    0x00005d79      0x14a watchdog.o
+ .debug_line    0x00005ec3       0xab C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eerd_block.o)
+ .debug_line    0x00005f6e       0x7a C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eerd_byte.o)
+ .debug_line    0x00005fe8       0x67 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eerd_word.o)
+ .debug_line    0x0000604f       0xb0 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eeupd_byte.o)
+ .debug_line    0x000060ff       0x62 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eeupd_word.o)
+ .debug_line    0x00006161       0x80 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eewr_block.o)
+ .debug_line    0x000061e1       0x98 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eewr_byte.o)
+ .debug_line    0x00006279       0x5b C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51\libatmega128.a(eewr_word.o)
 
-.debug_frame    0x00000000     0x1464
+.debug_frame    0x00000000     0x15b8
  *(.debug_frame)
  .debug_frame   0x00000000      0x118 Archive.o
  .debug_frame   0x00000118      0x158 line.o
  .debug_frame   0x00000270       0x34 main.o
- .debug_frame   0x000002a4      0x768 menu.o
- .debug_frame   0x00000a0c       0x54 Module.o
- .debug_frame   0x00000a60      0x1c0 system/Clock.o
- .debug_frame   0x00000c20       0x44 system/Device.o
- .debug_frame   0x00000c64       0xe0 system/key4.o
- .debug_frame   0x00000d44      0x340 system/Lcd.o
- .debug_frame   0x00001084       0x8c system/LcdKey_Timer.o
- .debug_frame   0x00001110       0x54 system/path.o
- .debug_frame   0x00001164      0x240 system/rs232.o
- .debug_frame   0x000013a4       0x7c system/timer2.o
- .debug_frame   0x00001420       0x44 watchdog.o
+ .debug_frame   0x000002a4      0x8bc menu.o
+ .debug_frame   0x00000b60       0x54 Module.o
+ .debug_frame   0x00000bb4      0x1c0 system/Clock.o
+ .debug_frame   0x00000d74       0x44 system/Device.o
+ .debug_frame   0x00000db8       0xe0 system/key4.o
+ .debug_frame   0x00000e98      0x340 system/Lcd.o
+ .debug_frame   0x000011d8       0x8c system/LcdKey_Timer.o
+ .debug_frame   0x00001264       0x54 system/path.o
+ .debug_frame   0x000012b8      0x240 system/rs232.o
+ .debug_frame   0x000014f8       0x7c system/timer2.o
+ .debug_frame   0x00001574       0x44 watchdog.o
 
-.debug_str      0x00000000     0x2efb
+.debug_str      0x00000000     0x3199
  *(.debug_str)
  .debug_str     0x00000000      0x27d C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.1.130/gcc/dev/atmega128/avr51/crtatmega128.o
  .debug_str     0x0000027d      0x3c9 Archive.o
                                 0x438 (size before relaxing)
- .debug_str     0x00000646      0x3fb line.o
-                                0x6ac (size before relaxing)
- .debug_str     0x00000a41      0x183 main.o
+ .debug_str     0x00000646      0x416 line.o
+                                0x6da (size before relaxing)
+ .debug_str     0x00000a5c      0x183 main.o
                                 0x463 (size before relaxing)
- .debug_str     0x00000bc4     0x16e3 menu.o
-                               0x1cff (size before relaxing)
- .debug_str     0x000022a7       0xbd Module.o
+ .debug_str     0x00000bdf     0x1966 menu.o
+                               0x1f9d (size before relaxing)
+ .debug_str     0x00002545       0xbd Module.o
                                 0x319 (size before relaxing)
- .debug_str     0x00002364      0x2db system/Clock.o
+ .debug_str     0x00002602      0x2db system/Clock.o
                                 0x623 (size before relaxing)
- .debug_str     0x0000263f      0x1ac system/Device.o
+ .debug_str     0x000028dd      0x1ac system/Device.o
                                 0x4f9 (size before relaxing)
- .debug_str     0x000027eb       0xcb system/key4.o
+ .debug_str     0x00002a89       0xcb system/key4.o
                                 0x439 (size before relaxing)
- .debug_str     0x000028b6      0x31d system/Lcd.o
+ .debug_str     0x00002b54      0x31d system/Lcd.o
                                 0x736 (size before relaxing)
- .debug_str     0x00002bd3       0x2d system/LcdKey_Timer.o
+ .debug_str     0x00002e71       0x2d system/LcdKey_Timer.o
                                 0x3f6 (size before relaxing)
- .debug_str     0x00002c00       0x5b system/path.o
+ .debug_str     0x00002e9e       0x5b system/path.o
                                 0x208 (size before relaxing)
- .debug_str     0x00002c5b      0x217 system/rs232.o
+ .debug_str     0x00002ef9      0x217 system/rs232.o
                                 0x644 (size before relaxing)
- .debug_str     0x00002e72       0x20 system/timer2.o
+ .debug_str     0x00003110       0x20 system/timer2.o
                                 0x266 (size before relaxing)
- .debug_str     0x00002e92        0xc vg.o
-                                0x2fa (size before relaxing)
- .debug_str     0x00002e9e       0x5d watchdog.o
+ .debug_str     0x00003130        0xc vg.o
+                                0x315 (size before relaxing)
+ .debug_str     0x0000313c       0x5d watchdog.o
                                 0x226 (size before relaxing)
 
-.debug_loc      0x00000000     0x5969
+.debug_loc      0x00000000     0x5ea3
  *(.debug_loc)
  .debug_loc     0x00000000      0x5ca Archive.o
  .debug_loc     0x000005ca      0x8eb line.o
  .debug_loc     0x00000eb5       0x93 main.o
- .debug_loc     0x00000f48     0x24b2 menu.o
- .debug_loc     0x000033fa      0x451 system/Clock.o
- .debug_loc     0x0000384b       0x63 system/Device.o
- .debug_loc     0x000038ae      0x53e system/key4.o
- .debug_loc     0x00003dec      0xf3d system/Lcd.o
- .debug_loc     0x00004d29      0x113 system/LcdKey_Timer.o
- .debug_loc     0x00004e3c       0x98 system/path.o
- .debug_loc     0x00004ed4      0x9ca system/rs232.o
- .debug_loc     0x0000589e       0xcb system/timer2.o
+ .debug_loc     0x00000f48     0x29ec menu.o
+ .debug_loc     0x00003934      0x451 system/Clock.o
+ .debug_loc     0x00003d85       0x63 system/Device.o
+ .debug_loc     0x00003de8      0x53e system/key4.o
+ .debug_loc     0x00004326      0xf3d system/Lcd.o
+ .debug_loc     0x00005263      0x113 system/LcdKey_Timer.o
+ .debug_loc     0x00005376       0x98 system/path.o
+ .debug_loc     0x0000540e      0x9ca system/rs232.o
+ .debug_loc     0x00005dd8       0xcb system/timer2.o
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -1962,22 +2030,22 @@ END GROUP
 .debug_pubtypes
  *(.debug_pubtypes)
 
-.debug_ranges   0x00000000      0x730
+.debug_ranges   0x00000000      0x7a0
  *(.debug_ranges)
  .debug_ranges  0x00000000       0x50 Archive.o
  .debug_ranges  0x00000050       0xc8 line.o
  .debug_ranges  0x00000118       0x28 main.o
- .debug_ranges  0x00000140      0x2d8 menu.o
- .debug_ranges  0x00000418       0x28 Module.o
- .debug_ranges  0x00000440       0xb8 system/Clock.o
- .debug_ranges  0x000004f8       0x10 system/Device.o
- .debug_ranges  0x00000508       0x50 system/key4.o
- .debug_ranges  0x00000558       0xd0 system/Lcd.o
- .debug_ranges  0x00000628       0x18 system/LcdKey_Timer.o
- .debug_ranges  0x00000640       0x28 system/path.o
- .debug_ranges  0x00000668       0x90 system/rs232.o
- .debug_ranges  0x000006f8       0x18 system/timer2.o
- .debug_ranges  0x00000710       0x20 watchdog.o
+ .debug_ranges  0x00000140      0x348 menu.o
+ .debug_ranges  0x00000488       0x28 Module.o
+ .debug_ranges  0x000004b0       0xb8 system/Clock.o
+ .debug_ranges  0x00000568       0x10 system/Device.o
+ .debug_ranges  0x00000578       0x50 system/key4.o
+ .debug_ranges  0x000005c8       0xd0 system/Lcd.o
+ .debug_ranges  0x00000698       0x18 system/LcdKey_Timer.o
+ .debug_ranges  0x000006b0       0x28 system/path.o
+ .debug_ranges  0x000006d8       0x90 system/rs232.o
+ .debug_ranges  0x00000768       0x18 system/timer2.o
+ .debug_ranges  0x00000780       0x20 watchdog.o
 
 .debug_macro
  *(.debug_macro)

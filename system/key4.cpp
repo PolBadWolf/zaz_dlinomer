@@ -121,7 +121,7 @@ void tc_key4::Select()
 					}
 					else
 					{
-						countL2 = TIME_AUTO - 2;
+						countL2 = TIME_AUTO - (TIME_AUTX / 20);
 					}
 					
 				}

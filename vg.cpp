@@ -22,5 +22,6 @@ namespace ns_vg
 	EEMEM uint16_t eeProtect = 1000;
 	EEMEM uint16_t eeInteral = (uint16_t)(((uint32_t)10) * ((uint32_t)FtTimerMain) / ((uint32_t)1000));
 	EEMEM uint8_t eeCorSpeed = 0;
+	EEMEM uint8_t eeFlSq2 = 1;
 	uint8_t exN;
 }

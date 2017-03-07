@@ -24,6 +24,7 @@ namespace ns_vg
 	extern EEMEM uint16_t eeProtect;
 	extern EEMEM uint16_t eeInteral;
 	extern EEMEM uint8_t eeCorSpeed;
+	extern EEMEM uint8_t eeFlSq2;
 	extern uint8_t exN;
 }
 
