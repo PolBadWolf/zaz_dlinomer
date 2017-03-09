@@ -21,15 +21,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
   8 .debug_abbrev 00002a23  00000000  00000000  00015511  2**0
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_line   000062d4  00000000  00000000  00017f34  2**0
+  9 .debug_line   00006208  00000000  00000000  00017f34  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_frame  000015b8  00000000  00000000  0001e208  2**2
+ 10 .debug_frame  000015b8  00000000  00000000  0001e13c  2**2
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_str    00003199  00000000  00000000  0001f7c0  2**0
+ 11 .debug_str    00003199  00000000  00000000  0001f6f4  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_loc    00005ea3  00000000  00000000  00022959  2**0
+ 12 .debug_loc    00005ea3  00000000  00000000  0002288d  2**0
                   CONTENTS, READONLY, DEBUGGING
- 13 .debug_ranges 000007a0  00000000  00000000  000287fc  2**0
+ 13 .debug_ranges 000007a0  00000000  00000000  00028730  2**0
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -5249,7 +5249,7 @@ int main(void)
 		ns_watchdog::reset();
 		if (ns_line::Render(&dlina, &sqBas))
 		{
-			if ((dlina > 13000) || (dlina < 8000))
+			if ((dlina > 13000) || (dlina < 7500))
 			{
 				ns_vg::lenTubuStat = 10;
     263c:	0f 2e       	mov	r0, r31
@@ -5273,14 +5273,14 @@ int main(void)
     2656:	88 23       	and	r24, r24
     2658:	a1 f1       	breq	.+104    	; 0x26c2 <main+0xde>
 		{
-			if ((dlina > 13000) || (dlina < 8000))
+			if ((dlina > 13000) || (dlina < 7500))
     265a:	89 81       	ldd	r24, Y+1	; 0x01
     265c:	9a 81       	ldd	r25, Y+2	; 0x02
     265e:	9c 01       	movw	r18, r24
-    2660:	20 54       	subi	r18, 0x40	; 64
-    2662:	3f 41       	sbci	r19, 0x1F	; 31
-    2664:	29 38       	cpi	r18, 0x89	; 137
-    2666:	33 41       	sbci	r19, 0x13	; 19
+    2660:	2c 54       	subi	r18, 0x4C	; 76
+    2662:	3d 41       	sbci	r19, 0x1D	; 29
+    2664:	2d 37       	cpi	r18, 0x7D	; 125
+    2666:	35 41       	sbci	r19, 0x15	; 21
     2668:	28 f0       	brcs	.+10     	; 0x2674 <main+0x90>
 			{
 				ns_vg::lenTubuStat = 10;

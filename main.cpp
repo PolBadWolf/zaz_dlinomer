@@ -60,7 +60,7 @@ int main(void)
 		ns_watchdog::reset();
 		if (ns_line::Render(&dlina, &sqBas))
 		{
-			if ((dlina > 13000) || (dlina < 8000))
+			if ((dlina > 13000) || (dlina < 7500))
 			{
 				ns_vg::lenTubuStat = 10;
 				ns_vg::lenTubeNew = 1;
